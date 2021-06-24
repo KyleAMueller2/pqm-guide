@@ -3,7 +3,7 @@
 
 # \#date
 
-Microsoft Docs: [#date](https://docs.microsoft.com/en-us/powerquery-m/sharpdate)
+Microsoft Docs: [\#date](https://docs.microsoft.com/en-us/powerquery-m/sharpdate)
 
 ## Syntax
 
