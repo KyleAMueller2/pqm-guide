@@ -22,11 +22,15 @@ class FunctionPageCreator:
 
         for line in self.function_list_raw.split("\n"):
             if line.strip() == "":
-                pass
+                continue
 
             elif line.startswith("  "):
                 # print(f"\tFunction: {line.strip()}")
                 function_name = line.strip().replace(" ", "-").replace(".", "-").lower()
+
+                if "overview" in function_name:
+                    continue
+
                 function_page_path = header_path.joinpath(function_name + ".md")
 
                 print(f"Creating function page at: {function_page_path}")
@@ -38,7 +42,15 @@ class FunctionPageCreator:
                     function_page_file.write("---\n")
                     function_page_file.write("---\n\n")
                     function_page_file.write(f"# {line.strip()}\n\n")
-                    function_page_file.write("[Guide content]")
+                    function_page_file.write(
+                        f"Microsoft Docs: [{line.strip()}](https://docs.microsoft.com/en-us/powerquery-m/{function_name})\n\n"
+                    )
+                    function_page_file.write("## Syntax\n\n")
+                    function_page_file.write("```\n")
+                    function_page_file.write("Syntax for this function.\n")
+                    function_page_file.write("```\n\n")
+                    function_page_file.write("## About\n\n")
+                    function_page_file.write("About this function.\n\n")
 
             else:
                 # print(f"Header: {line.strip()}")
@@ -63,6 +75,10 @@ class FunctionPageCreator:
                     readme_file.write("---\n")
                     readme_file.write("---\n\n")
                     readme_file.write(f"# {line.strip()}\n\n")
+                    readme_file.write(
+                        f"Microsoft Docs: [{line.strip()}](https://docs.microsoft.com/en-us/powerquery-m/{header_name})\n\n"
+                    )
+                    readme_file.write("About this function group.\n\n")
                     readme_file.write("{% include list.liquid all=true %}")
 
 
