@@ -1,0 +1,6 @@
+---
+---
+
+# Diagnostics.Trace
+
+[Guide content]
