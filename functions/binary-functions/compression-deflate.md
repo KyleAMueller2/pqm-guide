@@ -1,0 +1,6 @@
+---
+---
+
+# Compression.Deflate
+
+[Guide content]

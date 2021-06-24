@@ -1,0 +1,6 @@
+---
+---
+
+# Binary.InferContentType
+
+[Guide content]

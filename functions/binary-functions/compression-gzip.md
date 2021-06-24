@@ -1,0 +1,6 @@
+---
+---
+
+# Compression.GZip
+
+[Guide content]

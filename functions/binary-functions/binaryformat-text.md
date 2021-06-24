@@ -1,0 +1,6 @@
+---
+---
+
+# BinaryFormat.Text
+
+[Guide content]

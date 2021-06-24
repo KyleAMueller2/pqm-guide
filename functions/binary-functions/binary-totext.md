@@ -1,0 +1,6 @@
+---
+---
+
+# Binary.ToText
+
+[Guide content]

@@ -1,0 +1,6 @@
+---
+---
+
+# Binary.Buffer
+
+[Guide content]
