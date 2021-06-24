@@ -1,0 +1,6 @@
+---
+---
+
+# DateTime.FixedLocalNow
+
+[Guide content]

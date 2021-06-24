@@ -1,0 +1,6 @@
+---
+---
+
+# DateTime.IsInCurrentSecond
+
+[Guide content]

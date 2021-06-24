@@ -1,0 +1,6 @@
+---
+---
+
+# DateTime.IsInPreviousHour
+
+[Guide content]

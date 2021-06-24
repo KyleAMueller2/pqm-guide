@@ -1,0 +1,6 @@
+---
+---
+
+# DateTime.IsInNextNSeconds
+
+[Guide content]

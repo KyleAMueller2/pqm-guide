@@ -1,0 +1,6 @@
+---
+---
+
+# DateTime.IsInPreviousNSeconds
+
+[Guide content]
