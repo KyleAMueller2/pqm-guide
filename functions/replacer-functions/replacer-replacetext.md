@@ -1,0 +1,6 @@
+---
+---
+
+# Replacer.ReplaceText
+
+[Guide content]
