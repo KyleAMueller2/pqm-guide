@@ -1,0 +1,6 @@
+---
+---
+
+# Duration.TotalMinutes
+
+[Guide content]

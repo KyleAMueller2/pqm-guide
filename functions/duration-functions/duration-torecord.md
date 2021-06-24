@@ -1,0 +1,6 @@
+---
+---
+
+# Duration.ToRecord
+
+[Guide content]
