@@ -1,0 +1,6 @@
+---
+---
+
+# GeometryPoint.From
+
+[Guide content]
