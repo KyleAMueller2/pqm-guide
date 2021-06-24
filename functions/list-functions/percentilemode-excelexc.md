@@ -1,6 +1,0 @@
----
----
-
-# PercentileMode.ExcelExc
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Date.IsInPreviousNWeeks
-
-[Guide content]

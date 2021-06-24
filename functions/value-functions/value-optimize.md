@@ -1,6 +1,0 @@
----
----
-
-# Value.Optimize
-
-[Guide content]

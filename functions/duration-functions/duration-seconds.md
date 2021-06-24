@@ -1,6 +1,0 @@
----
----
-
-# Duration.Seconds
-
-[Guide content]

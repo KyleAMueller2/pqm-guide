@@ -1,6 +1,0 @@
----
----
-
-# Table.ReplaceRows
-
-[Guide content]

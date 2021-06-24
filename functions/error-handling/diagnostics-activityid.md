@@ -1,6 +1,0 @@
----
----
-
-# Diagnostics.ActivityId
-
-[Guide content]

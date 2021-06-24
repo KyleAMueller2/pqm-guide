@@ -1,6 +1,0 @@
----
----
-
-# Number.Abs
-
-[Guide content]

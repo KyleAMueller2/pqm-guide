@@ -1,6 +1,0 @@
----
----
-
-# Value.Metadata
-
-[Guide content]

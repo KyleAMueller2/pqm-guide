@@ -1,6 +1,0 @@
----
----
-
-# Number.Permutations
-
-[Guide content]

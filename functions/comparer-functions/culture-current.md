@@ -1,6 +1,0 @@
----
----
-
-# Culture.Current
-
-[Guide content]

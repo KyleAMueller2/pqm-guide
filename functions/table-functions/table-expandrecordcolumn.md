@@ -1,6 +1,0 @@
----
----
-
-# Table.ExpandRecordColumn
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Date.EndOfWeek
-
-[Guide content]

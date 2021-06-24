@@ -1,6 +1,0 @@
----
----
-
-# Table.View
-
-[Guide content]

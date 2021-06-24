@@ -1,6 +1,0 @@
----
----
-
-# DateTime.IsInPreviousMinute
-
-[Guide content]

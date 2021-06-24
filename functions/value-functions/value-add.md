@@ -1,6 +1,0 @@
----
----
-
-# Value.Add
-
-[Guide content]

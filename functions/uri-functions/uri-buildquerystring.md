@@ -1,6 +1,0 @@
----
----
-
-# Uri.BuildQueryString
-
-[Guide content]

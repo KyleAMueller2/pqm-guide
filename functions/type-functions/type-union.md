@@ -1,6 +1,0 @@
----
----
-
-# Type.Union
-
-[Guide content]

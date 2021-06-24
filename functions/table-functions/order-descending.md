@@ -1,6 +1,0 @@
----
----
-
-# Order.Descending
-
-[Guide content]

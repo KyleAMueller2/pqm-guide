@@ -1,6 +1,0 @@
----
----
-
-# List.DateTimes
-
-[Guide content]

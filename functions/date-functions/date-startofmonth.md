@@ -1,6 +1,0 @@
----
----
-
-# Date.StartOfMonth
-
-[Guide content]

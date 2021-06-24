@@ -1,6 +1,0 @@
----
----
-
-# List.InsertRange
-
-[Guide content]

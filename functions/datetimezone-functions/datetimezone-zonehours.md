@@ -1,6 +1,0 @@
----
----
-
-# DateTimeZone.ZoneHours
-
-[Guide content]

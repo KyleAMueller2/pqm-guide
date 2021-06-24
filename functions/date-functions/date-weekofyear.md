@@ -1,6 +1,0 @@
----
----
-
-# Date.WeekOfYear
-
-[Guide content]

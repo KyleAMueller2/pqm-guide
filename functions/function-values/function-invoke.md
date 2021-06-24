@@ -1,6 +1,0 @@
----
----
-
-# Function.Invoke
-
-[Guide content]

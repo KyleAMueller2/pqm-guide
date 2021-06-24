@@ -1,6 +1,0 @@
----
----
-
-# List.AnyTrue
-
-[Guide content]

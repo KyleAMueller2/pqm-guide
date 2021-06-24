@@ -1,6 +1,0 @@
----
----
-
-# Byte.From
-
-[Guide content]

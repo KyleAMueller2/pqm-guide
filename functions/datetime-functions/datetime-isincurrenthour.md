@@ -1,6 +1,0 @@
----
----
-
-# DateTime.IsInCurrentHour
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Table.FuzzyNestedJoin
-
-[Guide content]

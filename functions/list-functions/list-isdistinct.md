@@ -1,6 +1,0 @@
----
----
-
-# List.IsDistinct
-
-[Guide content]

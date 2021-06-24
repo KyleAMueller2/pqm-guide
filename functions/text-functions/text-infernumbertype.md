@@ -1,6 +1,0 @@
----
----
-
-# Text.InferNumberType
-
-[Guide content]

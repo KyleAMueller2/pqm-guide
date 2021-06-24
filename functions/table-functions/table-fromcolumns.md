@@ -1,6 +1,0 @@
----
----
-
-# Table.FromColumns
-
-[Guide content]

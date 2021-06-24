@@ -1,6 +1,0 @@
----
----
-
-# List.StandardDeviation
-
-[Guide content]

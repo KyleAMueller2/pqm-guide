@@ -1,6 +1,0 @@
----
----
-
-# Cube.ApplyParameter
-
-[Guide content]

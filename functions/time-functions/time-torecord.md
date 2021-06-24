@@ -1,6 +1,0 @@
----
----
-
-# Time.ToRecord
-
-[Guide content]

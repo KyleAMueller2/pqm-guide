@@ -1,6 +1,0 @@
----
----
-
-# Record.Combine
-
-[Guide content]

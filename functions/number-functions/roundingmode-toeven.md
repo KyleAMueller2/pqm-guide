@@ -1,6 +1,0 @@
----
----
-
-# RoundingMode.ToEven
-
-[Guide content]

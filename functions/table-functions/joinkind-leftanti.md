@@ -1,6 +1,0 @@
----
----
-
-# JoinKind.LeftAnti
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Number.IsNaN
-
-[Guide content]

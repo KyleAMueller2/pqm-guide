@@ -1,6 +1,0 @@
----
----
-
-# List.Count
-
-[Guide content]

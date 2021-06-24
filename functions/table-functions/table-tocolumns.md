@@ -1,6 +1,0 @@
----
----
-
-# Table.ToColumns
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Variable.Value
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# SharePoint.Contents
-
-[Guide content]

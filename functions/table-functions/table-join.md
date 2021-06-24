@@ -1,6 +1,0 @@
----
----
-
-# Table.Join
-
-[Guide content]

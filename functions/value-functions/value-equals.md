@@ -1,6 +1,0 @@
----
----
-
-# Value.Equals
-
-[Guide content]

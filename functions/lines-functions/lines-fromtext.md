@@ -1,6 +1,0 @@
----
----
-
-# Lines.FromText
-
-[Guide content]

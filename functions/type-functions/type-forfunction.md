@@ -1,6 +1,0 @@
----
----
-
-# Type.ForFunction
-
-[Guide content]

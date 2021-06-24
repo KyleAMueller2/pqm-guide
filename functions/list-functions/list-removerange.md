@@ -1,6 +1,0 @@
----
----
-
-# List.RemoveRange
-
-[Guide content]

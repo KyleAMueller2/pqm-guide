@@ -1,6 +1,0 @@
----
----
-
-# Record.FromList
-
-[Guide content]

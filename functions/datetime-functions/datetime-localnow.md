@@ -1,6 +1,0 @@
----
----
-
-# DateTime.LocalNow
-
-[Guide content]

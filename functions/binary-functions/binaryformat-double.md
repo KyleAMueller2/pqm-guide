@@ -1,6 +1,0 @@
----
----
-
-# BinaryFormat.Double
-
-[Guide content]

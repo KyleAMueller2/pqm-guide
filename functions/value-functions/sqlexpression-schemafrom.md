@@ -1,6 +1,0 @@
----
----
-
-# SqlExpression.SchemaFrom
-
-[Guide content]

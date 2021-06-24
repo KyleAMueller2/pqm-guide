@@ -1,6 +1,0 @@
----
----
-
-# Folder.Files
-
-[Guide content]

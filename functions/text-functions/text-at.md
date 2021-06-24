@@ -1,6 +1,0 @@
----
----
-
-# Text.At
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Number.Mod
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# List.Buffer
-
-[Guide content]

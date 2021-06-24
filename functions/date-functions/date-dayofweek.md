@@ -1,6 +1,0 @@
----
----
-
-# Date.DayOfWeek
-
-[Guide content]

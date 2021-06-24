@@ -1,6 +1,0 @@
----
----
-
-# QuoteStyle.Csv
-
-[Guide content]

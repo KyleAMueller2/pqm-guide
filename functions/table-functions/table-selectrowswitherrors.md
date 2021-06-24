@@ -1,6 +1,0 @@
----
----
-
-# Table.SelectRowsWithErrors
-
-[Guide content]

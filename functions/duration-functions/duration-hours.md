@@ -1,6 +1,0 @@
----
----
-
-# Duration.Hours
-
-[Guide content]

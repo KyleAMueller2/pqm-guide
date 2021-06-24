@@ -1,6 +1,0 @@
----
----
-
-# PostgreSQL.Database
-
-[Guide content]

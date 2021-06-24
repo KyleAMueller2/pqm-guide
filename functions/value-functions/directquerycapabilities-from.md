@@ -1,6 +1,0 @@
----
----
-
-# DirectQueryCapabilities.From
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# DateTimeZone.ZoneMinutes
-
-[Guide content]

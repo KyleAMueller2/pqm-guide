@@ -1,6 +1,0 @@
----
----
-
-# Number.RandomBetween
-
-[Guide content]

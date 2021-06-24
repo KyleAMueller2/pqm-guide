@@ -1,6 +1,0 @@
----
----
-
-# Xml.Tables
-
-[Guide content]

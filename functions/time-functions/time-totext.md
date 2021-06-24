@@ -1,6 +1,0 @@
----
----
-
-# Time.ToText
-
-[Guide content]

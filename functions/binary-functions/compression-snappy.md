@@ -1,6 +1,0 @@
----
----
-
-# Compression.Snappy
-
-[Guide content]

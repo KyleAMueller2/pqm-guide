@@ -1,6 +1,0 @@
----
----
-
-# Number.Ln
-
-[Guide content]

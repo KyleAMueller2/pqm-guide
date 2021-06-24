@@ -1,6 +1,0 @@
----
----
-
-# #table
-
-[Guide content]

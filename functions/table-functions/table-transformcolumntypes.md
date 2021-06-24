@@ -1,6 +1,0 @@
----
----
-
-# Table.TransformColumnTypes
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# CsvStyle.QuoteAlways
-
-[Guide content]

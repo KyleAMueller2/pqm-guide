@@ -1,6 +1,0 @@
----
----
-
-# List.RemoveNulls
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Table.ExpandTableColumn
-
-[Guide content]

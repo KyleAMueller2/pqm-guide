@@ -1,6 +1,0 @@
----
----
-
-# Time.Hour
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# SapHanaDistribution.Off
-
-[Guide content]

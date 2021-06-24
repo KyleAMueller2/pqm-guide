@@ -1,6 +1,0 @@
----
----
-
-# Number.ToText
-
-[Guide content]

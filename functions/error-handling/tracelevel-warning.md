@@ -1,6 +1,0 @@
----
----
-
-# TraceLevel.Warning
-
-[Guide content]

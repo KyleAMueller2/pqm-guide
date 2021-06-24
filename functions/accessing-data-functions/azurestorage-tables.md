@@ -1,6 +1,0 @@
----
----
-
-# AzureStorage.Tables
-
-[Guide content]

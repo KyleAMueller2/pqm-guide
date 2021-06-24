@@ -1,6 +1,0 @@
----
----
-
-# Table.RemoveMatchingRows
-
-[Guide content]

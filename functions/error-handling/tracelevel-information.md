@@ -1,6 +1,0 @@
----
----
-
-# TraceLevel.Information
-
-[Guide content]

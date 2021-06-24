@@ -1,6 +1,0 @@
----
----
-
-# Table.DemoteHeaders
-
-[Guide content]

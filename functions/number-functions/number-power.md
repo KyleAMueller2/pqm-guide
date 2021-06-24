@@ -1,6 +1,0 @@
----
----
-
-# Number.Power
-
-[Guide content]

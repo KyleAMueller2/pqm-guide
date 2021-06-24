@@ -1,6 +1,0 @@
----
----
-
-# Date.IsInCurrentDay
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# DateTimeZone.ToUtc
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Table.SelectRows
-
-[Guide content]

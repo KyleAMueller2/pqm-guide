@@ -1,6 +1,0 @@
----
----
-
-# List.ReplaceRange
-
-[Guide content]

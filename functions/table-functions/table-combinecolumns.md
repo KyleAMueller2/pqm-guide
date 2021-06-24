@@ -1,6 +1,0 @@
----
----
-
-# Table.CombineColumns
-
-[Guide content]

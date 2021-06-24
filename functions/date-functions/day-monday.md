@@ -1,6 +1,0 @@
----
----
-
-# Day.Monday
-
-[Guide content]

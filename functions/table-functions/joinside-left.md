@@ -1,6 +1,0 @@
----
----
-
-# JoinSide.Left
-
-[Guide content]

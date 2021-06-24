@@ -1,6 +1,0 @@
----
----
-
-# TraceLevel.Verbose
-
-[Guide content]

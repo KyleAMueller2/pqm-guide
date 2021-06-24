@@ -1,6 +1,0 @@
----
----
-
-# Table.Split
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Type.TableRow
-
-[Guide content]

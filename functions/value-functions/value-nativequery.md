@@ -1,6 +1,0 @@
----
----
-
-# Value.NativeQuery
-
-[Guide content]

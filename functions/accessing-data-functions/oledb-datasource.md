@@ -1,6 +1,0 @@
----
----
-
-# OleDb.DataSource
-
-[Guide content]

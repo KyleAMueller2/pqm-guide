@@ -1,6 +1,0 @@
----
----
-
-# List.RemoveMatchingItems
-
-[Guide content]

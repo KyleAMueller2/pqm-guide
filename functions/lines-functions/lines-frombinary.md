@@ -1,6 +1,0 @@
----
----
-
-# Lines.FromBinary
-
-[Guide content]

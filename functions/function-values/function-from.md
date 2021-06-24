@@ -1,6 +1,0 @@
----
----
-
-# Function.From
-
-[Guide content]

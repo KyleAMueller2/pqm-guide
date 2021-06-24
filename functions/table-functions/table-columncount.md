@@ -1,6 +1,0 @@
----
----
-
-# Table.ColumnCount
-
-[Guide content]

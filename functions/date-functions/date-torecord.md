@@ -1,6 +1,0 @@
----
----
-
-# Date.ToRecord
-
-[Guide content]

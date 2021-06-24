@@ -1,6 +1,0 @@
----
----
-
-# WebMethod.Delete
-
-[Guide content]

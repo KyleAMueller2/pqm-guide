@@ -1,6 +1,0 @@
----
----
-
-# List.Generate
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Table.Skip
-
-[Guide content]

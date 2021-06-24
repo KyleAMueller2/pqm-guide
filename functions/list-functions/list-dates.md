@@ -1,6 +1,0 @@
----
----
-
-# List.Dates
-
-[Guide content]

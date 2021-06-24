@@ -1,6 +1,0 @@
----
----
-
-# Table.PositionOfAny
-
-[Guide content]

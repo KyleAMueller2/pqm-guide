@@ -1,6 +1,0 @@
----
----
-
-# Character.ToNumber
-
-[Guide content]

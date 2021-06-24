@@ -1,6 +1,0 @@
----
----
-
-# Value.RemoveMetadata
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# List.FirstN
-
-[Guide content]

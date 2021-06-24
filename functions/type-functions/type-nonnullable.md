@@ -1,6 +1,0 @@
----
----
-
-# Type.NonNullable
-
-[Guide content]

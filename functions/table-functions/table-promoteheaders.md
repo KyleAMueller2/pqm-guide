@@ -1,6 +1,0 @@
----
----
-
-# Table.PromoteHeaders
-
-[Guide content]

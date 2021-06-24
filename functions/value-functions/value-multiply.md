@@ -1,6 +1,0 @@
----
----
-
-# Value.Multiply
-
-[Guide content]

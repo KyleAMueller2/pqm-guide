@@ -1,6 +1,0 @@
----
----
-
-# Text.TrimStart
-
-[Guide content]

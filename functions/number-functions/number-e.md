@@ -1,6 +1,0 @@
----
----
-
-# Number.E
-
-[Guide content]

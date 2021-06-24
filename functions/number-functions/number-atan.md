@@ -1,6 +1,0 @@
----
----
-
-# Number.Atan
-
-[Guide content]

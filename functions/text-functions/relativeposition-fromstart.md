@@ -1,6 +1,0 @@
----
----
-
-# RelativePosition.FromStart
-
-[Guide content]

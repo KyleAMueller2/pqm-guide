@@ -1,6 +1,0 @@
----
----
-
-# Uri.Combine
-
-[Guide content]

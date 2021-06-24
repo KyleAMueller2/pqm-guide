@@ -1,6 +1,0 @@
----
----
-
-# Table.ApproximateRowCount
-
-[Guide content]

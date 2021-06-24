@@ -1,6 +1,0 @@
----
----
-
-# Duration.From
-
-[Guide content]

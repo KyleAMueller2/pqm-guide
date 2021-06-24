@@ -1,6 +1,0 @@
----
----
-
-# Oracle.Database
-
-[Guide content]

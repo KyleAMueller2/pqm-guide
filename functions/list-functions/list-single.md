@@ -1,6 +1,0 @@
----
----
-
-# List.Single
-
-[Guide content]

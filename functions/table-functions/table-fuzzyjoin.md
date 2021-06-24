@@ -1,6 +1,0 @@
----
----
-
-# Table.FuzzyJoin
-
-[Guide content]

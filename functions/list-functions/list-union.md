@@ -1,6 +1,0 @@
----
----
-
-# List.Union
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Odbc.Query
-
-[Guide content]

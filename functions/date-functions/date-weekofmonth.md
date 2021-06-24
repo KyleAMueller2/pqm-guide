@@ -1,6 +1,0 @@
----
----
-
-# Date.WeekOfMonth
-
-[Guide content]

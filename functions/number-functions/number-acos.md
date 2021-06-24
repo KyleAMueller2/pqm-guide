@@ -1,6 +1,0 @@
----
----
-
-# Number.Acos
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Table.DuplicateColumn
-
-[Guide content]

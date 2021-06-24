@@ -1,6 +1,0 @@
----
----
-
-# TraceLevel.Error
-
-[Guide content]

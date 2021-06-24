@@ -1,6 +1,0 @@
----
----
-
-# Table.SingleRow
-
-[Guide content]

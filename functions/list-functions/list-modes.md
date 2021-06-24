@@ -1,6 +1,0 @@
----
----
-
-# List.Modes
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Text.Format
-
-[Guide content]

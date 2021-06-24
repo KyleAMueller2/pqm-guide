@@ -1,6 +1,0 @@
----
----
-
-# DateTimeZone.ToRecord
-
-[Guide content]

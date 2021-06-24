@@ -1,6 +1,0 @@
----
----
-
-# Table.Sort
-
-[Guide content]

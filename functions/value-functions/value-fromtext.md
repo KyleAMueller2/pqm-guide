@@ -1,6 +1,0 @@
----
----
-
-# Value.FromText
-
-[Guide content]

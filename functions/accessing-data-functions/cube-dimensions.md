@@ -1,6 +1,0 @@
----
----
-
-# Cube.Dimensions
-
-[Guide content]

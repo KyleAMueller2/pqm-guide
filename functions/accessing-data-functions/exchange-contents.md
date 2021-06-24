@@ -1,6 +1,0 @@
----
----
-
-# Exchange.Contents
-
-[Guide content]

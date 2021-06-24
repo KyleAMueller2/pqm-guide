@@ -1,6 +1,0 @@
----
----
-
-# Table.Range
-
-[Guide content]

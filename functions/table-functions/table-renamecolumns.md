@@ -1,6 +1,0 @@
----
----
-
-# Table.RenameColumns
-
-[Guide content]

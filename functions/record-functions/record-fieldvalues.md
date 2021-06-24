@@ -1,6 +1,0 @@
----
----
-
-# Record.FieldValues
-
-[Guide content]

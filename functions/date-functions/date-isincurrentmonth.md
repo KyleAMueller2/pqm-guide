@@ -1,6 +1,0 @@
----
----
-
-# Date.IsInCurrentMonth
-
-[Guide content]

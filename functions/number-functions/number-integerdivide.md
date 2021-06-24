@@ -1,6 +1,0 @@
----
----
-
-# Number.IntegerDivide
-
-[Guide content]

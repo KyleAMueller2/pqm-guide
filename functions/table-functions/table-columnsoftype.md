@@ -1,6 +1,0 @@
----
----
-
-# Table.ColumnsOfType
-
-[Guide content]

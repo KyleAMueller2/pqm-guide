@@ -1,6 +1,0 @@
----
----
-
-# Text.PositionOf
-
-[Guide content]

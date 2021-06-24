@@ -1,6 +1,0 @@
----
----
-
-# Value.Alternate
-
-[Guide content]

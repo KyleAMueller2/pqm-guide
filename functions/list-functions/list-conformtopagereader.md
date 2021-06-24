@@ -1,6 +1,0 @@
----
----
-
-# List.ConformToPageReader
-
-[Guide content]

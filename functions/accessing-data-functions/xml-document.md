@@ -1,6 +1,0 @@
----
----
-
-# Xml.Document
-
-[Guide content]

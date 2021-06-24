@@ -1,6 +1,0 @@
----
----
-
-# Table.ReplaceErrorValues
-
-[Guide content]

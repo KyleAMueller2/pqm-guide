@@ -1,6 +1,0 @@
----
----
-
-# Tables.GetRelationships
-
-[Guide content]

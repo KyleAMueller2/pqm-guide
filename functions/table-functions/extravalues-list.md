@@ -1,6 +1,0 @@
----
----
-
-# ExtraValues.List
-
-[Guide content]

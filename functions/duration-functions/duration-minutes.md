@@ -1,6 +1,0 @@
----
----
-
-# Duration.Minutes
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Text.Upper
-
-[Guide content]

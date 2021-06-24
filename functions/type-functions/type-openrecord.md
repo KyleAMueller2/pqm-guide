@@ -1,6 +1,0 @@
----
----
-
-# Type.OpenRecord
-
-[Guide content]

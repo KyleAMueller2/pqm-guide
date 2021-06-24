@@ -1,6 +1,0 @@
----
----
-
-# JoinAlgorithm.Dynamic
-
-[Guide content]

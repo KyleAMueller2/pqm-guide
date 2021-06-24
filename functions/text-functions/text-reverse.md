@@ -1,6 +1,0 @@
----
----
-
-# Text.Reverse
-
-[Guide content]

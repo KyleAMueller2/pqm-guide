@@ -1,6 +1,0 @@
----
----
-
-# Type.ReplaceFacets
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Hdfs.Contents
-
-[Guide content]

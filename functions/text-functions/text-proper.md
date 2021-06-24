@@ -1,6 +1,0 @@
----
----
-
-# Text.Proper
-
-[Guide content]

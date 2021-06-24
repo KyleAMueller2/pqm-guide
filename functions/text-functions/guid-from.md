@@ -1,6 +1,0 @@
----
----
-
-# Guid.From
-
-[Guide content]

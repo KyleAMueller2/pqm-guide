@@ -1,6 +1,0 @@
----
----
-
-# #date
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Cube.MeasureProperties
-
-[Guide content]

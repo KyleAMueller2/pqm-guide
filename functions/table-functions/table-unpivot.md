@@ -1,6 +1,0 @@
----
----
-
-# Table.Unpivot
-
-[Guide content]

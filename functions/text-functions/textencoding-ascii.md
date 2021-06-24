@@ -1,6 +1,0 @@
----
----
-
-# TextEncoding.Ascii
-
-[Guide content]

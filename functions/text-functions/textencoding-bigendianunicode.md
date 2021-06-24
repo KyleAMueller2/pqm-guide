@@ -1,6 +1,0 @@
----
----
-
-# TextEncoding.BigEndianUnicode
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# SharePoint.Tables
-
-[Guide content]

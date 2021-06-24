@@ -1,6 +1,0 @@
----
----
-
-# #binary
-
-[Guide content]

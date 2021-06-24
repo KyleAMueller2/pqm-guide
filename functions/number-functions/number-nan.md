@@ -1,6 +1,0 @@
----
----
-
-# Number.NaN
-
-[Guide content]

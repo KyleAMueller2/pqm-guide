@@ -1,6 +1,0 @@
----
----
-
-# #datetimezone
-
-[Guide content]

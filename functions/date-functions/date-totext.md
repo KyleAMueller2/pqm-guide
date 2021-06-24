@@ -1,6 +1,0 @@
----
----
-
-# Date.ToText
-
-[Guide content]

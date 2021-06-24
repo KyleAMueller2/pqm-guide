@@ -1,6 +1,0 @@
----
----
-
-# #datetime
-
-[Guide content]

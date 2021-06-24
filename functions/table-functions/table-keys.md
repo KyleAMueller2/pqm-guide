@@ -1,6 +1,0 @@
----
----
-
-# Table.Keys
-
-[Guide content]

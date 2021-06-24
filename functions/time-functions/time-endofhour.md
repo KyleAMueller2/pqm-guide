@@ -1,6 +1,0 @@
----
----
-
-# Time.EndOfHour
-
-[Guide content]

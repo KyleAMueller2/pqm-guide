@@ -1,6 +1,0 @@
----
----
-
-# Table.PartitionValues
-
-[Guide content]

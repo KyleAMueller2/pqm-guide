@@ -1,6 +1,0 @@
----
----
-
-# Table.FillUp
-
-[Guide content]

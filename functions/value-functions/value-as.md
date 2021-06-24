@@ -1,6 +1,0 @@
----
----
-
-# Value.As
-
-[Guide content]

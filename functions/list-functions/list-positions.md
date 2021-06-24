@@ -1,6 +1,0 @@
----
----
-
-# List.Positions
-
-[Guide content]

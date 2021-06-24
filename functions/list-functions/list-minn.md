@@ -1,6 +1,0 @@
----
----
-
-# List.MinN
-
-[Guide content]

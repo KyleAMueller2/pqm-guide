@@ -1,6 +1,0 @@
----
----
-
-# Text.Lower
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Number.BitwiseShiftLeft
-
-[Guide content]

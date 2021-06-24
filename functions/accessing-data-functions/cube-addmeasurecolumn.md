@@ -1,6 +1,0 @@
----
----
-
-# Cube.AddMeasureColumn
-
-[Guide content]

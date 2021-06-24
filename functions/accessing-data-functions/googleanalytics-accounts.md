@@ -1,6 +1,0 @@
----
----
-
-# GoogleAnalytics.Accounts
-
-[Guide content]

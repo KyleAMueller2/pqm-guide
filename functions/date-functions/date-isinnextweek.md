@@ -1,6 +1,0 @@
----
----
-
-# Date.IsInNextWeek
-
-[Guide content]

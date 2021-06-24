@@ -1,6 +1,0 @@
----
----
-
-# File.Contents
-
-[Guide content]

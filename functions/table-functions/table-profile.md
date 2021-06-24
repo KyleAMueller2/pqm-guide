@@ -1,6 +1,0 @@
----
----
-
-# Table.Profile
-
-[Guide content]

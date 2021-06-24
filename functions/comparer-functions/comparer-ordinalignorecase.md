@@ -1,6 +1,0 @@
----
----
-
-# Comparer.OrdinalIgnoreCase
-
-[Guide content]

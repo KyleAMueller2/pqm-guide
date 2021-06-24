@@ -1,6 +1,0 @@
----
----
-
-# Time.Minute
-
-[Guide content]

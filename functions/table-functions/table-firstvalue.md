@@ -1,6 +1,0 @@
----
----
-
-# Table.FirstValue
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# AccessControlKind.Deny
-
-[Guide content]

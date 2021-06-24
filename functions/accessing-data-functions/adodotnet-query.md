@@ -1,6 +1,0 @@
----
----
-
-# AdoDotNet.Query
-
-[Guide content]

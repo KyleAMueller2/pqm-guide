@@ -1,6 +1,0 @@
----
----
-
-# Comparer.FromCulture
-
-[Guide content]

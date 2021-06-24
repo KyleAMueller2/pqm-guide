@@ -1,6 +1,0 @@
----
----
-
-# Table.FirstN
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# List.Mode
-
-[Guide content]

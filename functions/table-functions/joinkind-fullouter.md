@@ -1,6 +1,0 @@
----
----
-
-# JoinKind.FullOuter
-
-[Guide content]

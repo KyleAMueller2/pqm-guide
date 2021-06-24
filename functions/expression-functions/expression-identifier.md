@@ -1,6 +1,0 @@
----
----
-
-# Expression.Identifier
-
-[Guide content]

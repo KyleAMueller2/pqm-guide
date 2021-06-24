@@ -1,6 +1,0 @@
----
----
-
-# Logical.ToText
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Table.Last
-
-[Guide content]

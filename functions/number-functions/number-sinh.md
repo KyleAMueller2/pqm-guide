@@ -1,6 +1,0 @@
----
----
-
-# Number.Sinh
-
-[Guide content]

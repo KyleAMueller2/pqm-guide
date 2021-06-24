@@ -1,6 +1,0 @@
----
----
-
-# Hdfs.Files
-
-[Guide content]

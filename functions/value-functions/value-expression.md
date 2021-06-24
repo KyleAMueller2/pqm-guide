@@ -1,6 +1,0 @@
----
----
-
-# Value.Expression
-
-[Guide content]

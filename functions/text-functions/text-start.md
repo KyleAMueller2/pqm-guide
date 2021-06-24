@@ -1,6 +1,0 @@
----
----
-
-# Text.Start
-
-[Guide content]

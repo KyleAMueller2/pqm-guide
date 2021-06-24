@@ -1,6 +1,0 @@
----
----
-
-# Uri.Parts
-
-[Guide content]

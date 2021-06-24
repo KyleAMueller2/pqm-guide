@@ -1,6 +1,0 @@
----
----
-
-# Graph.Nodes
-
-[Guide content]

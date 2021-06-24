@@ -1,6 +1,0 @@
----
----
-
-# Text.PadStart
-
-[Guide content]

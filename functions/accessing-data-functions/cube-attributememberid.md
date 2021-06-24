@@ -1,6 +1,0 @@
----
----
-
-# Cube.AttributeMemberId
-
-[Guide content]

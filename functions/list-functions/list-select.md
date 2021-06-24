@@ -1,6 +1,0 @@
----
----
-
-# List.Select
-
-[Guide content]

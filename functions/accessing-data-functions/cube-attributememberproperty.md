@@ -1,6 +1,0 @@
----
----
-
-# Cube.AttributeMemberProperty
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# BinaryFormat.ByteOrder
-
-[Guide content]

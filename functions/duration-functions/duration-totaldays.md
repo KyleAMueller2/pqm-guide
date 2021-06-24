@@ -1,6 +1,0 @@
----
----
-
-# Duration.TotalDays
-
-[Guide content]

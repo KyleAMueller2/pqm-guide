@@ -1,6 +1,0 @@
----
----
-
-# Date.DayOfYear
-
-[Guide content]

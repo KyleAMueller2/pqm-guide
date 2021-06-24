@@ -1,6 +1,0 @@
----
----
-
-# Table.AggregateTableColumn
-
-[Guide content]

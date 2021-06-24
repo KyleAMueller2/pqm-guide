@@ -1,6 +1,0 @@
----
----
-
-# List.ReplaceMatchingItems
-
-[Guide content]

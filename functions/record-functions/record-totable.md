@@ -1,6 +1,0 @@
----
----
-
-# Record.ToTable
-
-[Guide content]

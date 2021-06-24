@@ -1,6 +1,0 @@
----
----
-
-# DateTimeZone.LocalNow
-
-[Guide content]

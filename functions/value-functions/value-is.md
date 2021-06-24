@@ -1,6 +1,0 @@
----
----
-
-# Value.Is
-
-[Guide content]

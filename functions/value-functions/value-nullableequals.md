@@ -1,6 +1,0 @@
----
----
-
-# Value.NullableEquals
-
-[Guide content]

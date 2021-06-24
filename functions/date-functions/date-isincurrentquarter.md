@@ -1,6 +1,0 @@
----
----
-
-# Date.IsInCurrentQuarter
-
-[Guide content]

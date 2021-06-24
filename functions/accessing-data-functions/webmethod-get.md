@@ -1,6 +1,0 @@
----
----
-
-# WebMethod.Get
-
-[Guide content]

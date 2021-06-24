@@ -1,6 +1,0 @@
----
----
-
-# Record.AddField
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Compression.None
-
-[Guide content]

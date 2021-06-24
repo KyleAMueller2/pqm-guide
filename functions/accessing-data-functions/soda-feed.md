@@ -1,6 +1,0 @@
----
----
-
-# Soda.Feed
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Table.Min
-
-[Guide content]

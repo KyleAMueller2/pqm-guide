@@ -1,6 +1,0 @@
----
----
-
-# TraceLevel.Critical
-
-[Guide content]

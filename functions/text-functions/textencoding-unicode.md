@@ -1,6 +1,0 @@
----
----
-
-# TextEncoding.Unicode
-
-[Guide content]

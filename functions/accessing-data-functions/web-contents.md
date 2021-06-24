@@ -1,6 +1,0 @@
----
----
-
-# Web.Contents
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Value.Divide
-
-[Guide content]

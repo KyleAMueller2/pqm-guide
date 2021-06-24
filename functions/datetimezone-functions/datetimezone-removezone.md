@@ -1,6 +1,0 @@
----
----
-
-# DateTimeZone.RemoveZone
-
-[Guide content]

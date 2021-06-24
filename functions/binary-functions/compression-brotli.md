@@ -1,6 +1,0 @@
----
----
-
-# Compression.Brotli
-
-[Guide content]

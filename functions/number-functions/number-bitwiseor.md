@@ -1,6 +1,0 @@
----
----
-
-# Number.BitwiseOr
-
-[Guide content]

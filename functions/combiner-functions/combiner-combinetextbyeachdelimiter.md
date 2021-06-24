@@ -1,6 +1,0 @@
----
----
-
-# Combiner.CombineTextByEachDelimiter
-
-[Guide content]

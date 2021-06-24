@@ -1,6 +1,0 @@
----
----
-
-# Number.Combinations
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Table.ReplaceMatchingRows
-
-[Guide content]

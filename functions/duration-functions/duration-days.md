@@ -1,6 +1,0 @@
----
----
-
-# Duration.Days
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Pdf.Tables
-
-[Guide content]

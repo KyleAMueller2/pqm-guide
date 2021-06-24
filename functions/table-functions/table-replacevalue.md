@@ -1,6 +1,0 @@
----
----
-
-# Table.ReplaceValue
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# WebMethod.Post
-
-[Guide content]

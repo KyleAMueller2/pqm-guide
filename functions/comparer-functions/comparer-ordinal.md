@@ -1,6 +1,0 @@
----
----
-
-# Comparer.Ordinal
-
-[Guide content]

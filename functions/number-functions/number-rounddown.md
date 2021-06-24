@@ -1,6 +1,0 @@
----
----
-
-# Number.RoundDown
-
-[Guide content]

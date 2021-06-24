@@ -1,6 +1,0 @@
----
----
-
-# Date.From
-
-[Guide content]

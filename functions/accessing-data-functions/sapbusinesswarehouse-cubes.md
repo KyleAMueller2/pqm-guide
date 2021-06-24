@@ -1,6 +1,0 @@
----
----
-
-# SapBusinessWarehouse.Cubes
-
-[Guide content]

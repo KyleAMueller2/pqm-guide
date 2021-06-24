@@ -1,6 +1,0 @@
----
----
-
-# DateTime.FromText
-
-[Guide content]

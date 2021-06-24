@@ -1,6 +1,0 @@
----
----
-
-# Occurrence.Repeating
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# List.Sort
-
-[Guide content]

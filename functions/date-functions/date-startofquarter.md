@@ -1,6 +1,0 @@
----
----
-
-# Date.StartOfQuarter
-
-[Guide content]

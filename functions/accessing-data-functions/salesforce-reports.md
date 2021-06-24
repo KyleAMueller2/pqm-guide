@@ -1,6 +1,0 @@
----
----
-
-# Salesforce.Reports
-
-[Guide content]

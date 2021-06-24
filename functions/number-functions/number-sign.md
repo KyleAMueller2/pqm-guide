@@ -1,6 +1,0 @@
----
----
-
-# Number.Sign
-
-[Guide content]

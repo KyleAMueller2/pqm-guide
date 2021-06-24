@@ -1,6 +1,0 @@
----
----
-
-# Text.Insert
-
-[Guide content]

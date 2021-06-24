@@ -1,6 +1,0 @@
----
----
-
-# Number.Factorial
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# ByteOrder.BigEndian
-
-[Guide content]

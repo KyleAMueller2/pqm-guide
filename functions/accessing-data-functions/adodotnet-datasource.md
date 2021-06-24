@@ -1,6 +1,0 @@
----
----
-
-# AdoDotNet.DataSource
-
-[Guide content]

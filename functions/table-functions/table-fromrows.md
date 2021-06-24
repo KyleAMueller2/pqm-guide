@@ -1,6 +1,0 @@
----
----
-
-# Table.FromRows
-
-[Guide content]

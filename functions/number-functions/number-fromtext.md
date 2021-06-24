@@ -1,6 +1,0 @@
----
----
-
-# Number.FromText
-
-[Guide content]

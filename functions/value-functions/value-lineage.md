@@ -1,6 +1,0 @@
----
----
-
-# Value.Lineage
-
-[Guide content]

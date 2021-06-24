@@ -1,6 +1,0 @@
----
----
-
-# Date.AddMonths
-
-[Guide content]

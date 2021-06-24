@@ -1,6 +1,0 @@
----
----
-
-# Table.SelectColumns
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# DateTimeZone.ToText
-
-[Guide content]

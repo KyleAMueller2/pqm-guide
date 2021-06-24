@@ -1,6 +1,0 @@
----
----
-
-# SapBusinessWarehouseExecutionMode.BasXml
-
-[Guide content]

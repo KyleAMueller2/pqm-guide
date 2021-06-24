@@ -1,6 +1,0 @@
----
----
-
-# ExtraValues.Ignore
-
-[Guide content]

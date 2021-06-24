@@ -1,6 +1,0 @@
----
----
-
-# Table.FindText
-
-[Guide content]

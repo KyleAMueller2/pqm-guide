@@ -1,6 +1,0 @@
----
----
-
-# BinaryOccurrence.Optional
-
-[Guide content]

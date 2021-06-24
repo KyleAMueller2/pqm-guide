@@ -1,6 +1,0 @@
----
----
-
-# Decimal.From
-
-[Guide content]

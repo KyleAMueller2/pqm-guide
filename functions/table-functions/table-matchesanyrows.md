@@ -1,6 +1,0 @@
----
----
-
-# Table.MatchesAnyRows
-
-[Guide content]

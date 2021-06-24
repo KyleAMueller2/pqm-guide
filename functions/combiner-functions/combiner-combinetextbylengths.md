@@ -1,6 +1,0 @@
----
----
-
-# Combiner.CombineTextByLengths
-
-[Guide content]

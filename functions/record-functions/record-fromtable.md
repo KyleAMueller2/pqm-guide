@@ -1,6 +1,0 @@
----
----
-
-# Record.FromTable
-
-[Guide content]

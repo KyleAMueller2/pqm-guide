@@ -1,6 +1,0 @@
----
----
-
-# Character.FromNumber
-
-[Guide content]

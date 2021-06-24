@@ -1,6 +1,0 @@
----
----
-
-# Number.BitwiseNot
-
-[Guide content]

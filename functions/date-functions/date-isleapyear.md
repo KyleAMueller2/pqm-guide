@@ -1,6 +1,0 @@
----
----
-
-# Date.IsLeapYear
-
-[Guide content]

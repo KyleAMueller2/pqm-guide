@@ -1,6 +1,0 @@
----
----
-
-# List.Repeat
-
-[Guide content]

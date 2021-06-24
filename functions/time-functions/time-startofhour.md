@@ -1,6 +1,0 @@
----
----
-
-# Time.StartOfHour
-
-[Guide content]

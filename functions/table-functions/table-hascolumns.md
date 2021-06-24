@@ -1,6 +1,0 @@
----
----
-
-# Table.HasColumns
-
-[Guide content]

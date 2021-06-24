@@ -1,6 +1,0 @@
----
----
-
-# Date.IsInNextNMonths
-
-[Guide content]

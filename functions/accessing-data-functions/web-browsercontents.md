@@ -1,6 +1,0 @@
----
----
-
-# Web.BrowserContents
-
-[Guide content]

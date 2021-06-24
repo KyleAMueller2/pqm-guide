@@ -1,6 +1,0 @@
----
----
-
-# Table.RowCount
-
-[Guide content]

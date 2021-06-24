@@ -1,6 +1,0 @@
----
----
-
-# Date.QuarterOfYear
-
-[Guide content]

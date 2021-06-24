@@ -1,6 +1,0 @@
----
----
-
-# Number.Sin
-
-[Guide content]

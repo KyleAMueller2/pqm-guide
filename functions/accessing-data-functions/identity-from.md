@@ -1,6 +1,0 @@
----
----
-
-# Identity.From
-
-[Guide content]

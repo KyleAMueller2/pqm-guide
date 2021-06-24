@@ -1,6 +1,0 @@
----
----
-
-# DateTimeZone.ToLocal
-
-[Guide content]

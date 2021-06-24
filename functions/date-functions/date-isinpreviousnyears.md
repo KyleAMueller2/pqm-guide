@@ -1,6 +1,0 @@
----
----
-
-# Date.IsInPreviousNYears
-
-[Guide content]

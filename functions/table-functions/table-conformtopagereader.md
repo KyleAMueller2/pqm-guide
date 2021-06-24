@@ -1,6 +1,0 @@
----
----
-
-# Table.ConformToPageReader
-
-[Guide content]

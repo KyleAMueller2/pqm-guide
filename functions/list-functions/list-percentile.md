@@ -1,6 +1,0 @@
----
----
-
-# List.Percentile
-
-[Guide content]

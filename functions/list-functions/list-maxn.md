@@ -1,6 +1,0 @@
----
----
-
-# List.MaxN
-
-[Guide content]

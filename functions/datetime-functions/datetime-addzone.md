@@ -1,6 +1,0 @@
----
----
-
-# DateTime.AddZone
-
-[Guide content]

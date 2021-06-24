@@ -1,6 +1,0 @@
----
----
-
-# Binary.ToText
-
-[Guide content]

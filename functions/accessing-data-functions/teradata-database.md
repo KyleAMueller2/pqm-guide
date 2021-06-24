@@ -1,6 +1,0 @@
----
----
-
-# Teradata.Database
-
-[Guide content]

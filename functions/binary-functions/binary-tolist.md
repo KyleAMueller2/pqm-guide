@@ -1,6 +1,0 @@
----
----
-
-# Binary.ToList
-
-[Guide content]

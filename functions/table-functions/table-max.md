@@ -1,6 +1,0 @@
----
----
-
-# Table.Max
-
-[Guide content]

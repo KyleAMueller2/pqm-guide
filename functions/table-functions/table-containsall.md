@@ -1,6 +1,0 @@
----
----
-
-# Table.ContainsAll
-
-[Guide content]

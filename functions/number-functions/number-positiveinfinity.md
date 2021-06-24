@@ -1,6 +1,0 @@
----
----
-
-# Number.PositiveInfinity
-
-[Guide content]

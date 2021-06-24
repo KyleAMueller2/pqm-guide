@@ -1,6 +1,0 @@
----
----
-
-# Table.ReverseRows
-
-[Guide content]

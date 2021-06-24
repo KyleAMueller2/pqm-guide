@@ -1,6 +1,0 @@
----
----
-
-# BinaryOccurrence.Required
-
-[Guide content]

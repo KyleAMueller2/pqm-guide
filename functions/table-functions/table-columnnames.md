@@ -1,6 +1,0 @@
----
----
-
-# Table.ColumnNames
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# MissingField.Ignore
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Binary.Decompress
-
-[Guide content]

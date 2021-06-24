@@ -1,6 +1,0 @@
----
----
-
-# Cube.Transform
-
-[Guide content]

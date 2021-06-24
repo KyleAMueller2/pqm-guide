@@ -1,6 +1,0 @@
----
----
-
-# Geography.FromWellKnownText
-
-[Guide content]

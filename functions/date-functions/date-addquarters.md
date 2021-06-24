@@ -1,6 +1,0 @@
----
----
-
-# Date.AddQuarters
-
-[Guide content]

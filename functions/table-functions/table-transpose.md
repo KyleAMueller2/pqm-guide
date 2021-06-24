@@ -1,6 +1,0 @@
----
----
-
-# Table.Transpose
-
-[Guide content]

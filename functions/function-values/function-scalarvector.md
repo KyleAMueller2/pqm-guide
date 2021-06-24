@@ -1,6 +1,0 @@
----
----
-
-# Function.ScalarVector
-
-[Guide content]

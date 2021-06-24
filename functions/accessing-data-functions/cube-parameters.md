@@ -1,6 +1,0 @@
----
----
-
-# Cube.Parameters
-
-[Guide content]

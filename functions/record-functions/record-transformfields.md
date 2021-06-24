@@ -1,6 +1,0 @@
----
----
-
-# Record.TransformFields
-
-[Guide content]

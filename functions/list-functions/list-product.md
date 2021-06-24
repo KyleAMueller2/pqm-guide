@@ -1,6 +1,0 @@
----
----
-
-# List.Product
-
-[Guide content]

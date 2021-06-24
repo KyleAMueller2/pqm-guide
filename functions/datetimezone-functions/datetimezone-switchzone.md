@@ -1,6 +1,0 @@
----
----
-
-# DateTimeZone.SwitchZone
-
-[Guide content]

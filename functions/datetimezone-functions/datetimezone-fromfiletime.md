@@ -1,6 +1,0 @@
----
----
-
-# DateTimeZone.FromFileTime
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# DateTimeZone.UtcNow
-
-[Guide content]

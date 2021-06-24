@@ -1,6 +1,0 @@
----
----
-
-# BinaryFormat.Record
-
-[Guide content]

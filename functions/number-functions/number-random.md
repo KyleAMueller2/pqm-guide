@@ -1,6 +1,0 @@
----
----
-
-# Number.Random
-
-[Guide content]

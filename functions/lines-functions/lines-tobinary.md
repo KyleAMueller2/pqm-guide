@@ -1,6 +1,0 @@
----
----
-
-# Lines.ToBinary
-
-[Guide content]

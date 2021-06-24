@@ -1,6 +1,0 @@
----
----
-
-# List.Accumulate
-
-[Guide content]

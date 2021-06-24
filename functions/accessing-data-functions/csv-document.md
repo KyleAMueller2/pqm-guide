@@ -1,6 +1,0 @@
----
----
-
-# Csv.Document
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Value.ReplaceMetadata
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Text.AfterDelimiter
-
-[Guide content]

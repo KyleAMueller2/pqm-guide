@@ -1,6 +1,0 @@
----
----
-
-# Date.EndOfMonth
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# BinaryFormat.Decimal
-
-[Guide content]

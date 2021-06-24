@@ -1,6 +1,0 @@
----
----
-
-# QuoteStyle.None
-
-[Guide content]

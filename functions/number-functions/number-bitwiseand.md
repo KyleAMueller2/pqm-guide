@@ -1,6 +1,0 @@
----
----
-
-# Number.BitwiseAnd
-
-[Guide content]

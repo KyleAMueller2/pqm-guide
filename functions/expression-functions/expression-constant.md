@@ -1,6 +1,0 @@
----
----
-
-# Expression.Constant
-
-[Guide content]

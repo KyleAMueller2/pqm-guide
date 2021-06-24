@@ -1,6 +1,0 @@
----
----
-
-# ByteOrder.LittleEndian
-
-[Guide content]

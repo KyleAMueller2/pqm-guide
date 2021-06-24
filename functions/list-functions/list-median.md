@@ -1,6 +1,0 @@
----
----
-
-# List.Median
-
-[Guide content]

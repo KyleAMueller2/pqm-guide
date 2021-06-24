@@ -1,6 +1,0 @@
----
----
-
-# AzureStorage.DataLakeContents
-
-[Guide content]

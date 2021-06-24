@@ -1,6 +1,0 @@
----
----
-
-# Double.From
-
-[Guide content]

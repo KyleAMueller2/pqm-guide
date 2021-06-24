@@ -1,6 +1,0 @@
----
----
-
-# Text.Clean
-
-[Guide content]

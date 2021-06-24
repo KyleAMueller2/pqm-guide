@@ -1,6 +1,0 @@
----
----
-
-# Informix.Database
-
-[Guide content]

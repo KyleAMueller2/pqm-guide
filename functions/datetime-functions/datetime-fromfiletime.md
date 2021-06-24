@@ -1,6 +1,0 @@
----
----
-
-# DateTime.FromFileTime
-
-[Guide content]

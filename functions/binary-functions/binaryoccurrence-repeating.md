@@ -1,6 +1,0 @@
----
----
-
-# BinaryOccurrence.Repeating
-
-[Guide content]

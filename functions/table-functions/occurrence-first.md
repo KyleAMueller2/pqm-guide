@@ -1,6 +1,0 @@
----
----
-
-# Occurrence.First
-
-[Guide content]

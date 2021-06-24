@@ -1,6 +1,0 @@
----
----
-
-# Precision.Double
-
-[Guide content]

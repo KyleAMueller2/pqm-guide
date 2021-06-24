@@ -1,6 +1,0 @@
----
----
-
-# List.Range
-
-[Guide content]

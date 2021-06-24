@@ -1,6 +1,0 @@
----
----
-
-# JoinAlgorithm.RightHash
-
-[Guide content]

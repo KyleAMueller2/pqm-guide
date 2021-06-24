@@ -1,6 +1,0 @@
----
----
-
-# SapHana.Database
-
-[Guide content]

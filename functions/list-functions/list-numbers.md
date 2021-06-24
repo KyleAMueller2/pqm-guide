@@ -1,6 +1,0 @@
----
----
-
-# List.Numbers
-
-[Guide content]

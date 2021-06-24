@@ -1,6 +1,0 @@
----
----
-
-# List.Difference
-
-[Guide content]

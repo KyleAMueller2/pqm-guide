@@ -1,6 +1,0 @@
----
----
-
-# List.Last
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Sql.Databases
-
-[Guide content]

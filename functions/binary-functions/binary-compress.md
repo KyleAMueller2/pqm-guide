@@ -1,6 +1,0 @@
----
----
-
-# Binary.Compress
-
-[Guide content]

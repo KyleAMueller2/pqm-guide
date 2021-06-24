@@ -1,6 +1,0 @@
----
----
-
-# List.Zip
-
-[Guide content]

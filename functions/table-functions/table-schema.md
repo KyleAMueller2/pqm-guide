@@ -1,6 +1,0 @@
----
----
-
-# Table.Schema
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# List.IsEmpty
-
-[Guide content]

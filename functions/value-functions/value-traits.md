@@ -1,6 +1,0 @@
----
----
-
-# Value.Traits
-
-[Guide content]

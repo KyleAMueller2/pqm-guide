@@ -1,6 +1,0 @@
----
----
-
-# Table.Group
-
-[Guide content]

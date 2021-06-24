@@ -1,6 +1,0 @@
----
----
-
-# List.Sum
-
-[Guide content]

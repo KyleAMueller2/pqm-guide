@@ -1,6 +1,0 @@
----
----
-
-# MySQL.Database
-
-[Guide content]

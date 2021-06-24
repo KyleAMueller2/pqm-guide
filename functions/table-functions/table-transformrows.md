@@ -1,6 +1,0 @@
----
----
-
-# Table.TransformRows
-
-[Guide content]

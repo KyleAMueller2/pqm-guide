@@ -1,6 +1,0 @@
----
----
-
-# Odbc.DataSource
-
-[Guide content]

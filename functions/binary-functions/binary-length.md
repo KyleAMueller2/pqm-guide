@@ -1,6 +1,0 @@
----
----
-
-# Binary.Length
-
-[Guide content]

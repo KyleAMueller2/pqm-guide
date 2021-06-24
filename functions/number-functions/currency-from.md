@@ -1,6 +1,0 @@
----
----
-
-# Currency.From
-
-[Guide content]

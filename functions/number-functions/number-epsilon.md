@@ -1,6 +1,0 @@
----
----
-
-# Number.Epsilon
-
-[Guide content]

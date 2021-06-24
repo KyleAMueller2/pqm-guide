@@ -1,6 +1,0 @@
----
----
-
-# Replacer.ReplaceValue
-
-[Guide content]

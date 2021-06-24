@@ -1,6 +1,0 @@
----
----
-
-# Cube.PropertyKey
-
-[Guide content]

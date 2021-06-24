@@ -1,6 +1,0 @@
----
----
-
-# List.FindText
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# DateTimeZone.FixedLocalNow
-
-[Guide content]

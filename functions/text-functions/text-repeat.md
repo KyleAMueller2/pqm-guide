@@ -1,6 +1,0 @@
----
----
-
-# Text.Repeat
-
-[Guide content]

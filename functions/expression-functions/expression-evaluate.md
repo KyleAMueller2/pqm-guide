@@ -1,6 +1,0 @@
----
----
-
-# Expression.Evaluate
-
-[Guide content]

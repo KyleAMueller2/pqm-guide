@@ -1,6 +1,0 @@
----
----
-
-# OleDb.Query
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Table.AddJoinColumn
-
-[Guide content]

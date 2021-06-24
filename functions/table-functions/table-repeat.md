@@ -1,6 +1,0 @@
----
----
-
-# Table.Repeat
-
-[Guide content]

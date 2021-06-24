@@ -1,6 +1,0 @@
----
----
-
-# Odbc.InferOptions
-
-[Guide content]

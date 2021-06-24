@@ -1,6 +1,0 @@
----
----
-
-# Uri.EscapeDataString
-
-[Guide content]

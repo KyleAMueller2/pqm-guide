@@ -1,6 +1,0 @@
----
----
-
-# Cube.ReplaceDimensions
-
-[Guide content]

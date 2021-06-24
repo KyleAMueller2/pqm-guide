@@ -1,6 +1,0 @@
----
----
-
-# BinaryFormat.Choice
-
-[Guide content]

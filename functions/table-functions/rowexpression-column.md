@@ -1,6 +1,0 @@
----
----
-
-# RowExpression.Column
-
-[Guide content]

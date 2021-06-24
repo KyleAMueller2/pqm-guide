@@ -1,6 +1,0 @@
----
----
-
-# List.Max
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Table.ReplaceRelationshipIdentity
-
-[Guide content]

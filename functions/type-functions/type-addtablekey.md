@@ -1,6 +1,0 @@
----
----
-
-# Type.AddTableKey
-
-[Guide content]

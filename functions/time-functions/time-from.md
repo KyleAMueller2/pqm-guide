@@ -1,6 +1,0 @@
----
----
-
-# Time.From
-
-[Guide content]

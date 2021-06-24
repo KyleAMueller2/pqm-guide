@@ -1,6 +1,0 @@
----
----
-
-# List.Skip
-
-[Guide content]

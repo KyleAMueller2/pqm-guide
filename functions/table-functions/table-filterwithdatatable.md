@@ -1,6 +1,0 @@
----
----
-
-# Table.FilterWithDataTable
-
-[Guide content]

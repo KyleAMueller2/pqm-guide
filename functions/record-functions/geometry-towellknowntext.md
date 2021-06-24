@@ -1,6 +1,0 @@
----
----
-
-# Geometry.ToWellKnownText
-
-[Guide content]

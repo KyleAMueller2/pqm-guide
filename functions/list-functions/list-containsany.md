@@ -1,6 +1,0 @@
----
----
-
-# List.ContainsAny
-
-[Guide content]

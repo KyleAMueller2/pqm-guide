@@ -1,6 +1,0 @@
----
----
-
-# JoinAlgorithm.LeftIndex
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# List.Times
-
-[Guide content]

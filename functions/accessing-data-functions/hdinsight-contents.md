@@ -1,6 +1,0 @@
----
----
-
-# HdInsight.Contents
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Table.AlternateRows
-
-[Guide content]

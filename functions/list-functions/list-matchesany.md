@@ -1,6 +1,0 @@
----
----
-
-# List.MatchesAny
-
-[Guide content]

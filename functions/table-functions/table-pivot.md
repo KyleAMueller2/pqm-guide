@@ -1,6 +1,0 @@
----
----
-
-# Table.Pivot
-
-[Guide content]

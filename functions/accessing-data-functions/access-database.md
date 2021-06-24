@@ -1,6 +1,0 @@
----
----
-
-# Access.Database
-
-[Guide content]

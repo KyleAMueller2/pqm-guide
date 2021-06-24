@@ -1,6 +1,0 @@
----
----
-
-# Number.From
-
-[Guide content]

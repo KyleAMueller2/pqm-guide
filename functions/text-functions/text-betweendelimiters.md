@@ -1,6 +1,0 @@
----
----
-
-# Text.BetweenDelimiters
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Table.AddIndexColumn
-
-[Guide content]

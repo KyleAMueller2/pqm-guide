@@ -1,6 +1,0 @@
----
----
-
-# SqlExpression.ToExpression
-
-[Guide content]

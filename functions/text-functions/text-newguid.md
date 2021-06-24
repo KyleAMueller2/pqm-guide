@@ -1,6 +1,0 @@
----
----
-
-# Text.NewGuid
-
-[Guide content]

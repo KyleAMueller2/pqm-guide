@@ -1,6 +1,0 @@
----
----
-
-# Table.FuzzyGroup
-
-[Guide content]

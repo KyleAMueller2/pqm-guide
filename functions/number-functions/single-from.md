@@ -1,6 +1,0 @@
----
----
-
-# Single.From
-
-[Guide content]

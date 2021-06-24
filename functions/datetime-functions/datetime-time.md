@@ -1,6 +1,0 @@
----
----
-
-# DateTime.Time
-
-[Guide content]

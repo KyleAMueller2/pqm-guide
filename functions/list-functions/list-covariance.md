@@ -1,6 +1,0 @@
----
----
-
-# List.Covariance
-
-[Guide content]

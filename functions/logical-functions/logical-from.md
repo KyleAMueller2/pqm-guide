@@ -1,6 +1,0 @@
----
----
-
-# Logical.From
-
-[Guide content]

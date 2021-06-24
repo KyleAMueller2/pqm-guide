@@ -1,6 +1,0 @@
----
----
-
-# HdInsight.Files
-
-[Guide content]

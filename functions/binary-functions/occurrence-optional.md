@@ -1,6 +1,0 @@
----
----
-
-# Occurrence.Optional
-
-[Guide content]

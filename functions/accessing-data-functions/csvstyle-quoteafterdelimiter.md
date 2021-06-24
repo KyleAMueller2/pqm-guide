@@ -1,6 +1,0 @@
----
----
-
-# CsvStyle.QuoteAfterDelimiter
-
-[Guide content]

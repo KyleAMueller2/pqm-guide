@@ -1,6 +1,0 @@
----
----
-
-# Record.FieldOrDefault
-
-[Guide content]

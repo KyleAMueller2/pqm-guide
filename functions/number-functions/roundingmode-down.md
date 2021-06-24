@@ -1,6 +1,0 @@
----
----
-
-# RoundingMode.Down
-
-[Guide content]

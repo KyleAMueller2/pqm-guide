@@ -1,6 +1,0 @@
----
----
-
-# SapHanaDistribution.Connection
-
-[Guide content]

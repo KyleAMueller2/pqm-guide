@@ -1,6 +1,0 @@
----
----
-
-# DateTime.IsInNextMinute
-
-[Guide content]

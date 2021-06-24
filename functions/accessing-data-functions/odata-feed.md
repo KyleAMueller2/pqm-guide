@@ -1,6 +1,0 @@
----
----
-
-# OData.Feed
-
-[Guide content]

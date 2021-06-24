@@ -1,6 +1,0 @@
----
----
-
-# Number.PI
-
-[Guide content]

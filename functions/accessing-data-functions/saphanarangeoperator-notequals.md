@@ -1,6 +1,0 @@
----
----
-
-# SapHanaRangeOperator.NotEquals
-
-[Guide content]

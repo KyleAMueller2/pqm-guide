@@ -1,6 +1,0 @@
----
----
-
-# Sybase.Database
-
-[Guide content]

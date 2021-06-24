@@ -1,6 +1,0 @@
----
----
-
-# Number.NegativeInfinity
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Day.Saturday
-
-[Guide content]

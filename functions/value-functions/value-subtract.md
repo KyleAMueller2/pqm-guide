@@ -1,6 +1,0 @@
----
----
-
-# Value.Subtract
-
-[Guide content]

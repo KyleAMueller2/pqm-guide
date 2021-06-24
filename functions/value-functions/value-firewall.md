@@ -1,6 +1,0 @@
----
----
-
-# Value.Firewall
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# List.Transform
-
-[Guide content]

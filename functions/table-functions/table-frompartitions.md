@@ -1,6 +1,0 @@
----
----
-
-# Table.FromPartitions
-
-[Guide content]

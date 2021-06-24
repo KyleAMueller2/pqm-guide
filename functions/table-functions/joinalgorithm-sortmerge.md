@@ -1,6 +1,0 @@
----
----
-
-# JoinAlgorithm.SortMerge
-
-[Guide content]

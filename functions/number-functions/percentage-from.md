@@ -1,6 +1,0 @@
----
----
-
-# Percentage.From
-
-[Guide content]

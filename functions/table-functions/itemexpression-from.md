@@ -1,6 +1,0 @@
----
----
-
-# ItemExpression.From
-
-[Guide content]

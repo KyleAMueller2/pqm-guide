@@ -1,6 +1,0 @@
----
----
-
-# ODataOmitValues.Nulls
-
-[Guide content]

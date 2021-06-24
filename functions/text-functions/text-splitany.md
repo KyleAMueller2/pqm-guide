@@ -1,6 +1,0 @@
----
----
-
-# Text.SplitAny
-
-[Guide content]

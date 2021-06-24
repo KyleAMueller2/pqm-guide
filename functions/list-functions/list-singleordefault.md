@@ -1,6 +1,0 @@
----
----
-
-# List.SingleOrDefault
-
-[Guide content]

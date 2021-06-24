@@ -1,6 +1,0 @@
----
----
-
-# Table.FromList
-
-[Guide content]

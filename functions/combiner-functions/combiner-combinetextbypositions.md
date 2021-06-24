@@ -1,6 +1,0 @@
----
----
-
-# Combiner.CombineTextByPositions
-
-[Guide content]

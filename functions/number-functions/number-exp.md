@@ -1,6 +1,0 @@
----
----
-
-# Number.Exp
-
-[Guide content]

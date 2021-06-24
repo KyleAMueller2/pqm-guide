@@ -1,6 +1,0 @@
----
----
-
-# AccessControlEntry.ConditionToIdentities
-
-[Guide content]

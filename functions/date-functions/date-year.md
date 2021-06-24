@@ -1,6 +1,0 @@
----
----
-
-# Date.Year
-
-[Guide content]

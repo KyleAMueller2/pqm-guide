@@ -1,6 +1,0 @@
----
----
-
-# Number.Round
-
-[Guide content]

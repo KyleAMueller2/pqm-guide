@@ -1,6 +1,0 @@
----
----
-
-# List.DateTimeZones
-
-[Guide content]

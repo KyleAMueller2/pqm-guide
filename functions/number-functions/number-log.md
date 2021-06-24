@@ -1,6 +1,0 @@
----
----
-
-# Number.Log
-
-[Guide content]

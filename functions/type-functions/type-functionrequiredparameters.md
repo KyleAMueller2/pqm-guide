@@ -1,6 +1,0 @@
----
----
-
-# Type.FunctionRequiredParameters
-
-[Guide content]

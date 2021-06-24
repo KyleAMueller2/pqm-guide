@@ -1,6 +1,0 @@
----
----
-
-# #duration
-
-[Guide content]

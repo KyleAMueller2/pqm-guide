@@ -1,6 +1,0 @@
----
----
-
-# Record.FieldCount
-
-[Guide content]

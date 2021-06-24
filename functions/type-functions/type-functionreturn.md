@@ -1,6 +1,0 @@
----
----
-
-# Type.FunctionReturn
-
-[Guide content]

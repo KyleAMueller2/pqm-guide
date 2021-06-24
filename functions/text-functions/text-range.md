@@ -1,6 +1,0 @@
----
----
-
-# Text.Range
-
-[Guide content]

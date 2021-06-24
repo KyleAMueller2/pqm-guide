@@ -1,6 +1,0 @@
----
----
-
-# Table.ReplaceKeys
-
-[Guide content]

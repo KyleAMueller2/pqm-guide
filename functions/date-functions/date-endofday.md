@@ -1,6 +1,0 @@
----
----
-
-# Date.EndOfDay
-
-[Guide content]

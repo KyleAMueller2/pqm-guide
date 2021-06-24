@@ -1,6 +1,0 @@
----
----
-
-# WebAction.Request
-
-[Guide content]

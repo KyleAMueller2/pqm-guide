@@ -1,6 +1,0 @@
----
----
-
-# Text.Length
-
-[Guide content]

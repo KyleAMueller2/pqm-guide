@@ -1,6 +1,0 @@
----
----
-
-# Number.RoundTowardZero
-
-[Guide content]

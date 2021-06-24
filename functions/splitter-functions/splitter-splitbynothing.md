@@ -1,6 +1,0 @@
----
----
-
-# Splitter.SplitByNothing
-
-[Guide content]

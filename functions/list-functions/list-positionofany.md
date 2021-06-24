@@ -1,6 +1,0 @@
----
----
-
-# List.PositionOfAny
-
-[Guide content]

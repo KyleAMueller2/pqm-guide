@@ -1,6 +1,0 @@
----
----
-
-# Date.AddYears
-
-[Guide content]

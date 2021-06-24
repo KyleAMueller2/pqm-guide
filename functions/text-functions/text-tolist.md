@@ -1,6 +1,0 @@
----
----
-
-# Text.ToList
-
-[Guide content]

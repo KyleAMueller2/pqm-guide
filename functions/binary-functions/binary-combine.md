@@ -1,6 +1,0 @@
----
----
-
-# Binary.Combine
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Table.RemoveRowsWithErrors
-
-[Guide content]

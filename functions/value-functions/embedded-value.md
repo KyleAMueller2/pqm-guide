@@ -1,6 +1,0 @@
----
----
-
-# Embedded.Value
-
-[Guide content]

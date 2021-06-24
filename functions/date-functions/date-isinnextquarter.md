@@ -1,6 +1,0 @@
----
----
-
-# Date.IsInNextQuarter
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# List.Intersect
-
-[Guide content]

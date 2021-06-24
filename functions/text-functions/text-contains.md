@@ -1,6 +1,0 @@
----
----
-
-# Text.Contains
-
-[Guide content]

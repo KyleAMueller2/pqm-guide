@@ -1,6 +1,0 @@
----
----
-
-# Type.RecordFields
-
-[Guide content]

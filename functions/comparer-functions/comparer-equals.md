@@ -1,6 +1,0 @@
----
----
-
-# Comparer.Equals
-
-[Guide content]

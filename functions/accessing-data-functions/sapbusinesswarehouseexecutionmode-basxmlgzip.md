@@ -1,6 +1,0 @@
----
----
-
-# SapBusinessWarehouseExecutionMode.BasXmlGzip
-
-[Guide content]

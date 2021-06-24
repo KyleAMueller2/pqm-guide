@@ -1,6 +1,0 @@
----
----
-
-# Cube.AddAndExpandDimensionColumn
-
-[Guide content]

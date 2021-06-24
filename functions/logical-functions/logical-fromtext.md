@@ -1,6 +1,0 @@
----
----
-
-# Logical.FromText
-
-[Guide content]

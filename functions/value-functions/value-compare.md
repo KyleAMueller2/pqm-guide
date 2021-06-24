@@ -1,6 +1,0 @@
----
----
-
-# Value.Compare
-
-[Guide content]

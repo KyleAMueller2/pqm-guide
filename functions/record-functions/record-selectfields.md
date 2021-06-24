@@ -1,6 +1,0 @@
----
----
-
-# Record.SelectFields
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Type.Facets
-
-[Guide content]

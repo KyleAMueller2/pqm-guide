@@ -1,6 +1,0 @@
----
----
-
-# Value.ReplaceType
-
-[Guide content]

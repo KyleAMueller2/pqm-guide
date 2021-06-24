@@ -1,6 +1,0 @@
----
----
-
-# Function.IsDataSource
-
-[Guide content]

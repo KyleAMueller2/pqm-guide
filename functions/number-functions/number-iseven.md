@@ -1,6 +1,0 @@
----
----
-
-# Number.IsEven
-
-[Guide content]

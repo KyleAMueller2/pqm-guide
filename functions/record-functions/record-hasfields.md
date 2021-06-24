@@ -1,6 +1,0 @@
----
----
-
-# Record.HasFields
-
-[Guide content]

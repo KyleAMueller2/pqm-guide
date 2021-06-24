@@ -1,6 +1,0 @@
----
----
-
-# Html.Table
-
-[Guide content]

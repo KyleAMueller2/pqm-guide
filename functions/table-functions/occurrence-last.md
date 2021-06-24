@@ -1,6 +1,0 @@
----
----
-
-# Occurrence.Last
-
-[Guide content]

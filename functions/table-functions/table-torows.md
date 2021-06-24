@@ -1,6 +1,0 @@
----
----
-
-# Table.ToRows
-
-[Guide content]

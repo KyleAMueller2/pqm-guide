@@ -1,6 +1,0 @@
----
----
-
-# Identity.IsMemberOf
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Excel.Workbook
-
-[Guide content]

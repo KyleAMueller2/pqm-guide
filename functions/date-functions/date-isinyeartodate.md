@@ -1,6 +1,0 @@
----
----
-
-# Date.IsInYearToDate
-
-[Guide content]

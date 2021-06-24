@@ -1,6 +1,0 @@
----
----
-
-# Table.ReorderColumns
-
-[Guide content]

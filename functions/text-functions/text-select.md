@@ -1,6 +1,0 @@
----
----
-
-# Text.Select
-
-[Guide content]

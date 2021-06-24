@@ -1,6 +1,0 @@
----
----
-
-# Table.Partition
-
-[Guide content]

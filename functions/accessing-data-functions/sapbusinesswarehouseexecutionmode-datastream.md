@@ -1,6 +1,0 @@
----
----
-
-# SapBusinessWarehouseExecutionMode.DataStream
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# Type.ClosedRecord
-
-[Guide content]

@@ -1,6 +1,0 @@
----
----
-
-# JoinAlgorithm.PairwiseHash
-
-[Guide content]
