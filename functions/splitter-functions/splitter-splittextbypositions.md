@@ -1,0 +1,6 @@
+---
+---
+
+# Splitter.SplitTextByPositions
+
+[Guide content]

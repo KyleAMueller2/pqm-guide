@@ -1,0 +1,6 @@
+---
+---
+
+# Splitter.SplitTextByAnyDelimiter
+
+[Guide content]

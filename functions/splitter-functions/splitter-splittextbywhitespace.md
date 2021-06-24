@@ -1,0 +1,6 @@
+---
+---
+
+# Splitter.SplitTextByWhitespace
+
+[Guide content]

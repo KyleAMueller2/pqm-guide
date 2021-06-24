@@ -1,0 +1,6 @@
+---
+---
+
+# Splitter.SplitTextByCharacterTransition
+
+[Guide content]

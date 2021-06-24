@@ -1,0 +1,6 @@
+---
+---
+
+# Splitter.SplitTextByRanges
+
+[Guide content]

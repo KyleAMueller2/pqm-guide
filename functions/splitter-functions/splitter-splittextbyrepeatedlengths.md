@@ -1,0 +1,6 @@
+---
+---
+
+# Splitter.SplitTextByRepeatedLengths
+
+[Guide content]
