@@ -1,0 +1,6 @@
+---
+---
+
+# PercentileMode.SqlDisc
+
+[Guide content]

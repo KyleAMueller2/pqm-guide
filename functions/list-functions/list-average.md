@@ -1,0 +1,6 @@
+---
+---
+
+# List.Average
+
+[Guide content]

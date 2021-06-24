@@ -1,0 +1,6 @@
+---
+---
+
+# List.RemoveLastN
+
+[Guide content]
