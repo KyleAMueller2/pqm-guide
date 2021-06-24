@@ -1,0 +1,6 @@
+---
+---
+
+# Combiner.CombineTextByRanges
+
+[Guide content]
