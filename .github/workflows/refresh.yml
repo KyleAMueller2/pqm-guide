@@ -1,9 +1,11 @@
 # File: .github/workflows/refresh.yml
 name: Refresh
 
-on:
-  schedule:
-    - cron:  '0 3 * * *' # Runs every day at 3am
+# on:     
+#   schedule:
+#     - cron:  '0 3 * * *' # Runs every day at 3am
+
+on: workflow_dispatch
 
 jobs:
   refresh:
