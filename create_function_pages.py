@@ -50,7 +50,7 @@ class FunctionPageCreator:
                         f"Microsoft Docs: [{line.strip()}](https://docs.microsoft.com/en-us/powerquery-m/{function_name})\n\n"
                     )
                     function_page_file.write("## Syntax\n\n")
-                    function_page_file.write("```\n")
+                    function_page_file.write("```powerquery-m\n")
                     function_page_file.write("Syntax for this function.\n")
                     function_page_file.write("```\n\n")
                     function_page_file.write("## About\n\n")
