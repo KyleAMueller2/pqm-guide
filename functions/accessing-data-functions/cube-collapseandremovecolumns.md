@@ -1,0 +1,6 @@
+---
+---
+
+# Cube.CollapseAndRemoveColumns
+
+[Guide content]
