@@ -1,0 +1,6 @@
+---
+---
+
+# Text.StartsWith
+
+[Guide content]

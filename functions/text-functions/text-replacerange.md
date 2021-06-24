@@ -1,0 +1,6 @@
+---
+---
+
+# Text.ReplaceRange
+
+[Guide content]

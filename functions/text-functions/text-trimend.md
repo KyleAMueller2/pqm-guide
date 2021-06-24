@@ -1,0 +1,6 @@
+---
+---
+
+# Text.TrimEnd
+
+[Guide content]

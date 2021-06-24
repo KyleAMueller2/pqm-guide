@@ -1,0 +1,6 @@
+---
+---
+
+# Text.EndsWith
+
+[Guide content]

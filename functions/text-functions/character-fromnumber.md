@@ -1,0 +1,6 @@
+---
+---
+
+# Character.FromNumber
+
+[Guide content]

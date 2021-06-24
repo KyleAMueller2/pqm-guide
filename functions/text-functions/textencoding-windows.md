@@ -1,0 +1,6 @@
+---
+---
+
+# TextEncoding.Windows
+
+[Guide content]
