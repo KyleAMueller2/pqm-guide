@@ -1,0 +1,17 @@
+---
+---
+
+# List.Difference
+
+Microsoft Docs: [List.Difference](https://docs.microsoft.com/en-us/powerquery-m/list-difference)
+
+## Syntax
+
+```
+Syntax for this function.
+```
+
+## About
+
+About this function.
+
