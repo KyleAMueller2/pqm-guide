@@ -1,5 +1,5 @@
 ---
-sort: 2
+sort: 10
 ---
 
 # This is an incredibly long caption for a long menu
