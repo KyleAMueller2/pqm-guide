@@ -28,6 +28,10 @@ class FunctionPageCreator:
                 # print(f"\tFunction: {line.strip()}")
                 function_name = line.strip().replace(" ", "-").replace(".", "-").lower()
 
+                if "#" in function_name:
+                    function_name = function_name.replace("#", "sharp")
+                    line = line.replace("#", "\#")
+
                 if "overview" in function_name:
                     continue
 
