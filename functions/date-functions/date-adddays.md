@@ -1,0 +1,6 @@
+---
+---
+
+# Date.AddDays
+
+[Guide content]

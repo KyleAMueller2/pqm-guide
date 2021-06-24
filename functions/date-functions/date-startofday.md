@@ -1,0 +1,6 @@
+---
+---
+
+# Date.StartOfDay
+
+[Guide content]

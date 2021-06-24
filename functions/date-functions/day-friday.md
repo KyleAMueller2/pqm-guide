@@ -1,0 +1,6 @@
+---
+---
+
+# Day.Friday
+
+[Guide content]

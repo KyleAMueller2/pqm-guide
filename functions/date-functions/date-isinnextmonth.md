@@ -1,0 +1,6 @@
+---
+---
+
+# Date.IsInNextMonth
+
+[Guide content]

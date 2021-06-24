@@ -1,0 +1,6 @@
+---
+---
+
+# Date.IsInCurrentYear
+
+[Guide content]

@@ -1,0 +1,6 @@
+---
+---
+
+# Date.IsInPreviousNMonths
+
+[Guide content]
