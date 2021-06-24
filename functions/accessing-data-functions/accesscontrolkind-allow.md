@@ -1,0 +1,6 @@
+---
+---
+
+# AccessControlKind.Allow
+
+[Guide content]

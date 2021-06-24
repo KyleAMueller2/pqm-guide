@@ -1,0 +1,6 @@
+---
+---
+
+# AdobeAnalytics.Cubes
+
+[Guide content]
