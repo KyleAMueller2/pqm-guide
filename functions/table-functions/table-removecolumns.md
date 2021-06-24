@@ -1,0 +1,6 @@
+---
+---
+
+# Table.RemoveColumns
+
+[Guide content]

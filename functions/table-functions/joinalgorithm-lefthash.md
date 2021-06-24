@@ -1,0 +1,6 @@
+---
+---
+
+# JoinAlgorithm.LeftHash
+
+[Guide content]

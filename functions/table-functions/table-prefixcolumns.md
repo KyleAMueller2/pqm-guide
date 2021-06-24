@@ -1,0 +1,6 @@
+---
+---
+
+# Table.PrefixColumns
+
+[Guide content]

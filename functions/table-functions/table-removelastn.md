@@ -1,0 +1,6 @@
+---
+---
+
+# Table.RemoveLastN
+
+[Guide content]

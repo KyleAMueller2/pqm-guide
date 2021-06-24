@@ -1,0 +1,6 @@
+---
+---
+
+# Table.ContainsAny
+
+[Guide content]

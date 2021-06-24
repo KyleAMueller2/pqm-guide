@@ -1,0 +1,6 @@
+---
+---
+
+# JoinKind.RightAnti
+
+[Guide content]

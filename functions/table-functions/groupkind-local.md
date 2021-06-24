@@ -1,0 +1,6 @@
+---
+---
+
+# GroupKind.Local
+
+[Guide content]

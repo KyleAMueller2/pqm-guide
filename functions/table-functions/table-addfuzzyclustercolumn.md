@@ -1,0 +1,6 @@
+---
+---
+
+# Table.AddFuzzyClusterColumn
+
+[Guide content]

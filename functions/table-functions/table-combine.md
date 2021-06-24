@@ -1,0 +1,6 @@
+---
+---
+
+# Table.Combine
+
+[Guide content]
