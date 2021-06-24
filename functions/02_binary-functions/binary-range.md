@@ -1,0 +1,6 @@
+---
+---
+
+# Binary.Range
+
+[Guide content]

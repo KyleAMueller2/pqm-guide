@@ -1,0 +1,6 @@
+---
+---
+
+# Duration.TotalHours
+
+[Guide content]

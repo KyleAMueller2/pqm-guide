@@ -1,0 +1,6 @@
+---
+---
+
+# Table.IsDistinct
+
+[Guide content]

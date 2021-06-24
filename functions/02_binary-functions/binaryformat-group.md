@@ -1,0 +1,6 @@
+---
+---
+
+# BinaryFormat.Group
+
+[Guide content]

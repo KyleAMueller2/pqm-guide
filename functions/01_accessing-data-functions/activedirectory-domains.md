@@ -1,0 +1,6 @@
+---
+---
+
+# ActiveDirectory.Domains
+
+[Guide content]

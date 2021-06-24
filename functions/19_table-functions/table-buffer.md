@@ -1,0 +1,6 @@
+---
+---
+
+# Table.Buffer
+
+[Guide content]

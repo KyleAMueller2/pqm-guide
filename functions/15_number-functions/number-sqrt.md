@@ -1,0 +1,6 @@
+---
+---
+
+# Number.Sqrt
+
+[Guide content]

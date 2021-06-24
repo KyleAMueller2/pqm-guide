@@ -1,0 +1,6 @@
+---
+---
+
+# Time.FromText
+
+[Guide content]

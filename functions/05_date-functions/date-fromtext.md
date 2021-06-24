@@ -1,0 +1,6 @@
+---
+---
+
+# Date.FromText
+
+[Guide content]

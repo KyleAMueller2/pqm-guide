@@ -1,0 +1,6 @@
+---
+---
+
+# Value.Type
+
+[Guide content]

@@ -1,0 +1,6 @@
+---
+---
+
+# Date.DaysInMonth
+
+[Guide content]

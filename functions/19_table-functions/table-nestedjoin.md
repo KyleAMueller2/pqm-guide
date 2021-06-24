@@ -1,0 +1,6 @@
+---
+---
+
+# Table.NestedJoin
+
+[Guide content]

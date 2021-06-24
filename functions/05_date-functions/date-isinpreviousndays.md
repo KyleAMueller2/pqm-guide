@@ -1,0 +1,6 @@
+---
+---
+
+# Date.IsInPreviousNDays
+
+[Guide content]

@@ -18,7 +18,7 @@ class FunctionPageCreator:
 
     def _structure_function_list(self):
         self.function_list = dict()
-        current_header = None
+        header_name = None
         sort_level = 1
 
         for line in self.function_list_raw.split("\n"):
@@ -27,20 +27,31 @@ class FunctionPageCreator:
 
             elif line.startswith("  "):
                 # print(f"\tFunction: {line.strip()}")
-                pass
+                function_name = line.strip().replace(" ", "-").replace(".", "-").lower()
+                function_page_path = header_path.joinpath(function_name + ".md")
+
+                print(f"Creating function page at: {function_page_path}")
+
+                if not function_page_path.exists():
+                    function_page_path.touch()
+
+                with open(function_page_path, "w") as function_page_file:
+                    function_page_file.write("---\n")
+                    function_page_file.write("---\n\n")
+                    function_page_file.write(f"# {line.strip()}\n\n")
+                    function_page_file.write("[Guide content]")
 
             else:
                 # print(f"Header: {line.strip()}")
-                header_name = line.strip().replace(" ", "-").lower()
-
-                if current_header:
+                if header_name:
                     sort_level += 1
 
-                current_header = f"{sort_level:02d}_{header_name}"
+                header_name = line.strip().replace(" ", "-").lower()
+                header_name = f"{sort_level:02d}_{header_name}"
 
-                # print(f"Creating header: {current_header}")
+                # print(f"Creating header: {header_name}")
 
-                header_path = self.function_path.joinpath(current_header)
+                header_path = self.function_path.joinpath(header_name)
 
                 print(f"Creating header directory at: {header_path}")
 
@@ -53,10 +64,11 @@ class FunctionPageCreator:
                 if not readme_path.exists():
                     readme_path.touch()
 
-                    with open(readme_path, "w") as readme_file:
-                        readme_file.write("---\n")
-                        readme_file.write("---\n\n")
-                        readme_file.write(f"# {line.strip()}\n\n")
+                with open(readme_path, "w") as readme_file:
+                    readme_file.write("---\n")
+                    readme_file.write("---\n\n")
+                    readme_file.write(f"# {line.strip()}\n\n")
+                    readme_file.write("{% include list.liquid all=true %}")
 
 
 if __name__ == "__main__":

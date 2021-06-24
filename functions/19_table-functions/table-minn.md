@@ -1,0 +1,6 @@
+---
+---
+
+# Table.MinN
+
+[Guide content]

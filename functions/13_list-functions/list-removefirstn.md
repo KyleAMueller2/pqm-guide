@@ -1,0 +1,6 @@
+---
+---
+
+# List.RemoveFirstN
+
+[Guide content]

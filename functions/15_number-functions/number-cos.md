@@ -1,0 +1,6 @@
+---
+---
+
+# Number.Cos
+
+[Guide content]

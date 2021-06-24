@@ -1,0 +1,6 @@
+---
+---
+
+# DateTime.IsInNextNHours
+
+[Guide content]

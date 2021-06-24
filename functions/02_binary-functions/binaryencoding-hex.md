@@ -1,0 +1,6 @@
+---
+---
+
+# BinaryEncoding.Hex
+
+[Guide content]

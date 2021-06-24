@@ -1,0 +1,6 @@
+---
+---
+
+# List.TransformMany
+
+[Guide content]

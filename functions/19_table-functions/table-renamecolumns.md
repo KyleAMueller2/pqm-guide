@@ -1,0 +1,6 @@
+---
+---
+
+# Table.RenameColumns
+
+[Guide content]

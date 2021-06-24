@@ -1,0 +1,6 @@
+---
+---
+
+# AzureStorage.Tables
+
+[Guide content]

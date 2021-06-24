@@ -1,0 +1,6 @@
+---
+---
+
+# Date.Year
+
+[Guide content]

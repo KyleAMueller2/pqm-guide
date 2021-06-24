@@ -1,0 +1,6 @@
+---
+---
+
+# Table.RemoveFirstN
+
+[Guide content]

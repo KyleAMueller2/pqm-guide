@@ -1,0 +1,6 @@
+---
+---
+
+# Cube.Properties
+
+[Guide content]

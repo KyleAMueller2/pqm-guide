@@ -1,0 +1,6 @@
+---
+---
+
+# Number.Tanh
+
+[Guide content]

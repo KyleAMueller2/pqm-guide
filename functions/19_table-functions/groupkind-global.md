@@ -1,0 +1,6 @@
+---
+---
+
+# GroupKind.Global
+
+[Guide content]

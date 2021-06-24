@@ -1,0 +1,6 @@
+---
+---
+
+# AzureStorage.BlobContents
+
+[Guide content]

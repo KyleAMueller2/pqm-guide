@@ -1,0 +1,6 @@
+---
+---
+
+# Folder.Contents
+
+[Guide content]

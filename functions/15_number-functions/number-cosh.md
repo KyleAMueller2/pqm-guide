@@ -1,0 +1,6 @@
+---
+---
+
+# Number.Cosh
+
+[Guide content]

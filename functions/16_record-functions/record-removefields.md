@@ -1,0 +1,6 @@
+---
+---
+
+# Record.RemoveFields
+
+[Guide content]

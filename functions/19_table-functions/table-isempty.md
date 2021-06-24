@@ -1,0 +1,6 @@
+---
+---
+
+# Table.IsEmpty
+
+[Guide content]

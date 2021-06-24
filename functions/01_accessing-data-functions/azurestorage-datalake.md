@@ -1,0 +1,6 @@
+---
+---
+
+# AzureStorage.DataLake
+
+[Guide content]

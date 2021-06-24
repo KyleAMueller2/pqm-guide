@@ -1,0 +1,6 @@
+---
+---
+
+# Table.SplitColumn
+
+[Guide content]

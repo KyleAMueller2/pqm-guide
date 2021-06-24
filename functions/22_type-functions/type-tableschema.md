@@ -1,0 +1,6 @@
+---
+---
+
+# Type.TableSchema
+
+[Guide content]

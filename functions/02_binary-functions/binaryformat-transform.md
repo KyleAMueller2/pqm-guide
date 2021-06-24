@@ -1,0 +1,6 @@
+---
+---
+
+# BinaryFormat.Transform
+
+[Guide content]

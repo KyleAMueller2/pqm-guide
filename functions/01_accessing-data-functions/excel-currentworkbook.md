@@ -1,0 +1,6 @@
+---
+---
+
+# Excel.CurrentWorkbook
+
+[Guide content]

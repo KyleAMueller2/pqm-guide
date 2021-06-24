@@ -1,0 +1,6 @@
+---
+---
+
+# TextEncoding.Ascii
+
+[Guide content]

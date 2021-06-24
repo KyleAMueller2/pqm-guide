@@ -1,0 +1,6 @@
+---
+---
+
+# Number.IsOdd
+
+[Guide content]

@@ -1,0 +1,6 @@
+---
+---
+
+# JoinKind.LeftOuter
+
+[Guide content]

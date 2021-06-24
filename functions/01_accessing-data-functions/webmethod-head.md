@@ -1,0 +1,6 @@
+---
+---
+
+# WebMethod.Head
+
+[Guide content]

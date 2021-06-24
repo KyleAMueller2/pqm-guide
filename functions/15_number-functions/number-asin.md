@@ -1,0 +1,6 @@
+---
+---
+
+# Number.Asin
+
+[Guide content]

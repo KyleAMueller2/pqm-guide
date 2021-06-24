@@ -1,0 +1,6 @@
+---
+---
+
+# DateTime.IsInCurrentMinute
+
+[Guide content]

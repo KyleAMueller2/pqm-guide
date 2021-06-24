@@ -1,0 +1,6 @@
+---
+---
+
+# Precision.Decimal
+
+[Guide content]

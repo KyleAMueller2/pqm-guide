@@ -1,0 +1,6 @@
+---
+---
+
+# Text.PadEnd
+
+[Guide content]

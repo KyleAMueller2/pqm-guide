@@ -1,0 +1,6 @@
+---
+---
+
+# Compression.Zstandard
+
+[Guide content]

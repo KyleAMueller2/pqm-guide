@@ -1,0 +1,6 @@
+---
+---
+
+# Table.UnpivotOtherColumns
+
+[Guide content]

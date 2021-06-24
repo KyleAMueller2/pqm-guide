@@ -1,0 +1,6 @@
+---
+---
+
+# Type.ListItem
+
+[Guide content]

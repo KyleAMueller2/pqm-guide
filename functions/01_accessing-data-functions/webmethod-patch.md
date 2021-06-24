@@ -1,0 +1,6 @@
+---
+---
+
+# WebMethod.Patch
+
+[Guide content]

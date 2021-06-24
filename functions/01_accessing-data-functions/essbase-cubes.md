@@ -1,0 +1,6 @@
+---
+---
+
+# Essbase.Cubes
+
+[Guide content]

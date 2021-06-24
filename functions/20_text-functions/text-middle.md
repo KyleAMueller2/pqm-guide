@@ -1,0 +1,6 @@
+---
+---
+
+# Text.Middle
+
+[Guide content]

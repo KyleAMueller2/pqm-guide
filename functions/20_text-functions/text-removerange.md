@@ -1,0 +1,6 @@
+---
+---
+
+# Text.RemoveRange
+
+[Guide content]

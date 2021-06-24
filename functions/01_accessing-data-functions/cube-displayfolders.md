@@ -1,0 +1,6 @@
+---
+---
+
+# Cube.DisplayFolders
+
+[Guide content]

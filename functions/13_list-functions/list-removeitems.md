@@ -1,0 +1,6 @@
+---
+---
+
+# List.RemoveItems
+
+[Guide content]

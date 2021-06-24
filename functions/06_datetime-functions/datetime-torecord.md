@@ -1,0 +1,6 @@
+---
+---
+
+# DateTime.ToRecord
+
+[Guide content]

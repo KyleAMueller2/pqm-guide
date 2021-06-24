@@ -1,0 +1,6 @@
+---
+---
+
+# Number.Tan
+
+[Guide content]

@@ -1,0 +1,6 @@
+---
+---
+
+# Date.IsInNextYear
+
+[Guide content]

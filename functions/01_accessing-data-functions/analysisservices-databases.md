@@ -1,0 +1,6 @@
+---
+---
+
+# AnalysisServices.Databases
+
+[Guide content]

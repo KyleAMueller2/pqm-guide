@@ -1,0 +1,6 @@
+---
+---
+
+# DateTime.Date
+
+[Guide content]

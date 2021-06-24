@@ -1,0 +1,6 @@
+---
+---
+
+# Duration.ToText
+
+[Guide content]

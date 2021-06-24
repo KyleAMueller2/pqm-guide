@@ -1,0 +1,6 @@
+---
+---
+
+# Text.Remove
+
+[Guide content]

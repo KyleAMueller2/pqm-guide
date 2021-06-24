@@ -1,0 +1,6 @@
+---
+---
+
+# Table.CombineColumnsToRecord
+
+[Guide content]

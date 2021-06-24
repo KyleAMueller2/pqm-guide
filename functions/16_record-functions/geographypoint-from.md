@@ -1,0 +1,6 @@
+---
+---
+
+# GeographyPoint.From
+
+[Guide content]

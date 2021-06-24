@@ -1,0 +1,6 @@
+---
+---
+
+# JoinKind.Inner
+
+[Guide content]

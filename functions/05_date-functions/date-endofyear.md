@@ -1,0 +1,6 @@
+---
+---
+
+# Date.EndOfYear
+
+[Guide content]

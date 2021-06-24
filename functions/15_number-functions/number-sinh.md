@@ -1,0 +1,6 @@
+---
+---
+
+# Number.Sinh
+
+[Guide content]

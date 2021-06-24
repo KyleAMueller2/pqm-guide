@@ -1,0 +1,6 @@
+---
+---
+
+# Date.IsInCurrentWeek
+
+[Guide content]
