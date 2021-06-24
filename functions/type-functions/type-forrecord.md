@@ -1,0 +1,6 @@
+---
+---
+
+# Type.ForRecord
+
+[Guide content]

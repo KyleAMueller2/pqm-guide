@@ -1,0 +1,6 @@
+---
+---
+
+# Type.IsOpenRecord
+
+[Guide content]

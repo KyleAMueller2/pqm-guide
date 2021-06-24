@@ -1,0 +1,6 @@
+---
+---
+
+# Type.Is
+
+[Guide content]
