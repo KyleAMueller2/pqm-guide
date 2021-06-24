@@ -3,4 +3,15 @@
 
 # List.Skip
 
-[Guide content]
+Microsoft Docs: [List.Skip](https://docs.microsoft.com/en-us/powerquery-m/list-skip)
+
+## Syntax
+
+```
+Syntax for this function.
+```
+
+## About
+
+About this function.
+

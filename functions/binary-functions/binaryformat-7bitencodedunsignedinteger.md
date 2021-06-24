@@ -3,4 +3,15 @@
 
 # BinaryFormat.7BitEncodedUnsignedInteger
 
-[Guide content]
+Microsoft Docs: [BinaryFormat.7BitEncodedUnsignedInteger](https://docs.microsoft.com/en-us/powerquery-m/binaryformat-7bitencodedunsignedinteger)
+
+## Syntax
+
+```
+Syntax for this function.
+```
+
+## About
+
+About this function.
+

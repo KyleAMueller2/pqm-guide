@@ -3,4 +3,15 @@
 
 # Number.BitwiseShiftLeft
 
-[Guide content]
+Microsoft Docs: [Number.BitwiseShiftLeft](https://docs.microsoft.com/en-us/powerquery-m/number-bitwiseshiftleft)
+
+## Syntax
+
+```
+Syntax for this function.
+```
+
+## About
+
+About this function.
+

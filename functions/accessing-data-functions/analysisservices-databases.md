@@ -3,4 +3,15 @@
 
 # AnalysisServices.Databases
 
-[Guide content]
+Microsoft Docs: [AnalysisServices.Databases](https://docs.microsoft.com/en-us/powerquery-m/analysisservices-databases)
+
+## Syntax
+
+```
+Syntax for this function.
+```
+
+## About
+
+About this function.
+

@@ -3,4 +3,15 @@
 
 # Number.Permutations
 
-[Guide content]
+Microsoft Docs: [Number.Permutations](https://docs.microsoft.com/en-us/powerquery-m/number-permutations)
+
+## Syntax
+
+```
+Syntax for this function.
+```
+
+## About
+
+About this function.
+

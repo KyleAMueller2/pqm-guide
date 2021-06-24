@@ -3,4 +3,15 @@
 
 # Number.RoundUp
 
-[Guide content]
+Microsoft Docs: [Number.RoundUp](https://docs.microsoft.com/en-us/powerquery-m/number-roundup)
+
+## Syntax
+
+```
+Syntax for this function.
+```
+
+## About
+
+About this function.
+

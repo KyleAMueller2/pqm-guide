@@ -3,4 +3,15 @@
 
 # Table.AddFuzzyClusterColumn
 
-[Guide content]
+Microsoft Docs: [Table.AddFuzzyClusterColumn](https://docs.microsoft.com/en-us/powerquery-m/table-addfuzzyclustercolumn)
+
+## Syntax
+
+```
+Syntax for this function.
+```
+
+## About
+
+About this function.
+

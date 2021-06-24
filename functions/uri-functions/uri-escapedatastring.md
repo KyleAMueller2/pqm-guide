@@ -3,4 +3,15 @@
 
 # Uri.EscapeDataString
 
-[Guide content]
+Microsoft Docs: [Uri.EscapeDataString](https://docs.microsoft.com/en-us/powerquery-m/uri-escapedatastring)
+
+## Syntax
+
+```
+Syntax for this function.
+```
+
+## About
+
+About this function.
+

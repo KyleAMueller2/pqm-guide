@@ -3,4 +3,15 @@
 
 # Date.WeekOfYear
 
-[Guide content]
+Microsoft Docs: [Date.WeekOfYear](https://docs.microsoft.com/en-us/powerquery-m/date-weekofyear)
+
+## Syntax
+
+```
+Syntax for this function.
+```
+
+## About
+
+About this function.
+

@@ -3,4 +3,15 @@
 
 # Cube.PropertyKey
 
-[Guide content]
+Microsoft Docs: [Cube.PropertyKey](https://docs.microsoft.com/en-us/powerquery-m/cube-propertykey)
+
+## Syntax
+
+```
+Syntax for this function.
+```
+
+## About
+
+About this function.
+

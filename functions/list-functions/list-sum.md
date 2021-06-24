@@ -3,4 +3,15 @@
 
 # List.Sum
 
-[Guide content]
+Microsoft Docs: [List.Sum](https://docs.microsoft.com/en-us/powerquery-m/list-sum)
+
+## Syntax
+
+```
+Syntax for this function.
+```
+
+## About
+
+About this function.
+

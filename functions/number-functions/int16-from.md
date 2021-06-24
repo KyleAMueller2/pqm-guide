@@ -3,4 +3,15 @@
 
 # Int16.From
 
-[Guide content]
+Microsoft Docs: [Int16.From](https://docs.microsoft.com/en-us/powerquery-m/int16-from)
+
+## Syntax
+
+```
+Syntax for this function.
+```
+
+## About
+
+About this function.
+

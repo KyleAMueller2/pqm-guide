@@ -3,4 +3,15 @@
 
 # Table.FilterWithDataTable
 
-[Guide content]
+Microsoft Docs: [Table.FilterWithDataTable](https://docs.microsoft.com/en-us/powerquery-m/table-filterwithdatatable)
+
+## Syntax
+
+```
+Syntax for this function.
+```
+
+## About
+
+About this function.
+

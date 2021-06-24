@@ -3,4 +3,15 @@
 
 # Table.Repeat
 
-[Guide content]
+Microsoft Docs: [Table.Repeat](https://docs.microsoft.com/en-us/powerquery-m/table-repeat)
+
+## Syntax
+
+```
+Syntax for this function.
+```
+
+## About
+
+About this function.
+
