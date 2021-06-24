@@ -19,7 +19,6 @@ class FunctionPageCreator:
     def _structure_function_list(self):
         self.function_list = dict()
         header_name = None
-        sort_level = 1
 
         for line in self.function_list_raw.split("\n"):
             if line.strip() == "":
@@ -43,11 +42,7 @@ class FunctionPageCreator:
 
             else:
                 # print(f"Header: {line.strip()}")
-                if header_name:
-                    sort_level += 1
-
                 header_name = line.strip().replace(" ", "-").lower()
-                header_name = f"{sort_level:02d}_{header_name}"
 
                 # print(f"Creating header: {header_name}")
 
