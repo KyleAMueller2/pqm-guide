@@ -1,0 +1,6 @@
+---
+---
+
+# SapHanaRangeOperator.LessThan
+
+[Guide content]

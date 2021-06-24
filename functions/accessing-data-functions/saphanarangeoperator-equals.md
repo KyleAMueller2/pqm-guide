@@ -1,0 +1,6 @@
+---
+---
+
+# SapHanaRangeOperator.Equals
+
+[Guide content]

@@ -1,0 +1,6 @@
+---
+---
+
+# RData.FromBinary
+
+[Guide content]

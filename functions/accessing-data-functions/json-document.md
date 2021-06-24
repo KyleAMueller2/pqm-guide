@@ -1,0 +1,6 @@
+---
+---
+
+# Json.Document
+
+[Guide content]

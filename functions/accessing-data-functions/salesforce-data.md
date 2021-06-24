@@ -1,0 +1,6 @@
+---
+---
+
+# Salesforce.Data
+
+[Guide content]

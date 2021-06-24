@@ -1,0 +1,6 @@
+---
+---
+
+# SapHanaDistribution.All
+
+[Guide content]

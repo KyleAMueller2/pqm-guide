@@ -1,0 +1,6 @@
+---
+---
+
+# IdentityProvider.Default
+
+[Guide content]

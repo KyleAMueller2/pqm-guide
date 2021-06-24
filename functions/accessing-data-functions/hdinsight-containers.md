@@ -1,0 +1,6 @@
+---
+---
+
+# HdInsight.Containers
+
+[Guide content]
