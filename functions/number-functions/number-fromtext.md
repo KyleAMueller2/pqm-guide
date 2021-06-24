@@ -1,0 +1,6 @@
+---
+---
+
+# Number.FromText
+
+[Guide content]

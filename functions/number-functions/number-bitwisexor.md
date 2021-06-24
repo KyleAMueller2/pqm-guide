@@ -1,0 +1,6 @@
+---
+---
+
+# Number.BitwiseXor
+
+[Guide content]
