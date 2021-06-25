@@ -8,7 +8,7 @@ class FunctionPageCreator:
 
     def run(self):
         self._read_function_list()
-        self._structure_function_list()
+        self._create_function_pages()
 
     def _read_function_list(self):
         with open(self.function_list_filename, "r") as function_list_file:
@@ -16,7 +16,8 @@ class FunctionPageCreator:
 
         # print(self.function_list_raw)
 
-    def _structure_function_list(self):
+    # TODO: Refactor this method by abstracting subroutines.
+    def _create_function_pages(self):
         self.function_list = dict()
         header_name = None
 
