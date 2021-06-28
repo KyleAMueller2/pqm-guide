@@ -7,7 +7,7 @@ Microsoft Docs: [Number.IsOdd](https://docs.microsoft.com/en-us/powerquery-m/num
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

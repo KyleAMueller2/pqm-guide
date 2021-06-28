@@ -7,7 +7,7 @@ Microsoft Docs: [RowExpression.Row](https://docs.microsoft.com/en-us/powerquery-
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [Text.NewGuid](https://docs.microsoft.com/en-us/powerquery-m/tex
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

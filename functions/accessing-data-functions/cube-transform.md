@@ -7,7 +7,7 @@ Microsoft Docs: [Cube.Transform](https://docs.microsoft.com/en-us/powerquery-m/c
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [List.Modes](https://docs.microsoft.com/en-us/powerquery-m/list-
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [Date.AddDays](https://docs.microsoft.com/en-us/powerquery-m/dat
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

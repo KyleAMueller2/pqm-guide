@@ -7,7 +7,7 @@ Microsoft Docs: [Number.BitwiseShiftRight](https://docs.microsoft.com/en-us/powe
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

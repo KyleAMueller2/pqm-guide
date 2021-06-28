@@ -7,7 +7,7 @@ Microsoft Docs: [Pdf.Tables](https://docs.microsoft.com/en-us/powerquery-m/pdf-t
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

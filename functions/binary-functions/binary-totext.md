@@ -7,7 +7,7 @@ Microsoft Docs: [Binary.ToText](https://docs.microsoft.com/en-us/powerquery-m/bi
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [AccessControlEntry.ConditionToIdentities](https://docs.microsof
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

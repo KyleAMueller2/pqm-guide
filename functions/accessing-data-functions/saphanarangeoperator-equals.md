@@ -7,7 +7,7 @@ Microsoft Docs: [SapHanaRangeOperator.Equals](https://docs.microsoft.com/en-us/p
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

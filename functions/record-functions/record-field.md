@@ -7,7 +7,7 @@ Microsoft Docs: [Record.Field](https://docs.microsoft.com/en-us/powerquery-m/rec
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

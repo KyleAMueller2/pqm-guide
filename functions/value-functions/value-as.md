@@ -7,7 +7,7 @@ Microsoft Docs: [Value.As](https://docs.microsoft.com/en-us/powerquery-m/value-a
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

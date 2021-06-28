@@ -7,7 +7,7 @@ Microsoft Docs: [BinaryFormat.ByteOrder](https://docs.microsoft.com/en-us/powerq
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

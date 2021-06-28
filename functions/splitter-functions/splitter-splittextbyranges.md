@@ -7,7 +7,7 @@ Microsoft Docs: [Splitter.SplitTextByRanges](https://docs.microsoft.com/en-us/po
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

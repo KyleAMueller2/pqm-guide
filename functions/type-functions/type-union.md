@@ -7,7 +7,7 @@ Microsoft Docs: [Type.Union](https://docs.microsoft.com/en-us/powerquery-m/type-
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

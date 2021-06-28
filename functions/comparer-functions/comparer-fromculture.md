@@ -7,7 +7,7 @@ Microsoft Docs: [Comparer.FromCulture](https://docs.microsoft.com/en-us/powerque
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

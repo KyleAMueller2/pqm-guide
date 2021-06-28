@@ -7,7 +7,7 @@ Microsoft Docs: [\#binary](https://docs.microsoft.com/en-us/powerquery-m/sharpbi
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

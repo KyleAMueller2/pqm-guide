@@ -7,7 +7,7 @@ Microsoft Docs: [WebMethod.Post](https://docs.microsoft.com/en-us/powerquery-m/w
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

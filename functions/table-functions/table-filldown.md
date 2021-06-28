@@ -7,7 +7,7 @@ Microsoft Docs: [Table.FillDown](https://docs.microsoft.com/en-us/powerquery-m/t
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

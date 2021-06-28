@@ -7,7 +7,7 @@ Microsoft Docs: [QuoteStyle.Csv](https://docs.microsoft.com/en-us/powerquery-m/q
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

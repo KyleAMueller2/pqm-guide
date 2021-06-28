@@ -7,7 +7,7 @@ Microsoft Docs: [Error.Record](https://docs.microsoft.com/en-us/powerquery-m/err
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

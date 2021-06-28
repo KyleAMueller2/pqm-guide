@@ -7,7 +7,7 @@ Microsoft Docs: [Cube.AddAndExpandDimensionColumn](https://docs.microsoft.com/en
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

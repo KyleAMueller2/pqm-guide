@@ -7,7 +7,7 @@ Microsoft Docs: [Text.Contains](https://docs.microsoft.com/en-us/powerquery-m/te
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

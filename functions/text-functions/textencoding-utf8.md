@@ -7,7 +7,7 @@ Microsoft Docs: [TextEncoding.Utf8](https://docs.microsoft.com/en-us/powerquery-
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

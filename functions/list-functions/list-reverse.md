@@ -7,7 +7,7 @@ Microsoft Docs: [List.Reverse](https://docs.microsoft.com/en-us/powerquery-m/lis
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

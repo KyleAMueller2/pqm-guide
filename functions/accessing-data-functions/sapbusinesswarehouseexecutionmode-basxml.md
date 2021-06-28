@@ -7,7 +7,7 @@ Microsoft Docs: [SapBusinessWarehouseExecutionMode.BasXml](https://docs.microsof
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

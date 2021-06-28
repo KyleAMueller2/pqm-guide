@@ -7,7 +7,7 @@ Microsoft Docs: [List.Max](https://docs.microsoft.com/en-us/powerquery-m/list-ma
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

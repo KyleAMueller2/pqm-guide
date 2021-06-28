@@ -7,7 +7,7 @@ Microsoft Docs: [Table.Pivot](https://docs.microsoft.com/en-us/powerquery-m/tabl
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

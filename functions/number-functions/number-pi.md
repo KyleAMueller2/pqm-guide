@@ -7,7 +7,7 @@ Microsoft Docs: [Number.PI](https://docs.microsoft.com/en-us/powerquery-m/number
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

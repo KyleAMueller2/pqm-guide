@@ -7,7 +7,7 @@ Microsoft Docs: [Date.ToText](https://docs.microsoft.com/en-us/powerquery-m/date
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [Splitter.SplitTextByRepeatedLengths](https://docs.microsoft.com
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

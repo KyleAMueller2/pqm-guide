@@ -7,7 +7,7 @@ Microsoft Docs: [Number.Atan2](https://docs.microsoft.com/en-us/powerquery-m/num
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

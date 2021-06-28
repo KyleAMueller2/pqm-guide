@@ -7,7 +7,7 @@ Microsoft Docs: [Time.From](https://docs.microsoft.com/en-us/powerquery-m/time-f
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

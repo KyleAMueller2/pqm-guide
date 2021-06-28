@@ -7,7 +7,7 @@ Microsoft Docs: [Cube.CollapseAndRemoveColumns](https://docs.microsoft.com/en-us
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

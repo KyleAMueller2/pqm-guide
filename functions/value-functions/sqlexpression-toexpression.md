@@ -7,7 +7,7 @@ Microsoft Docs: [SqlExpression.ToExpression](https://docs.microsoft.com/en-us/po
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

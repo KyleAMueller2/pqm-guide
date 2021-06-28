@@ -7,7 +7,7 @@ Microsoft Docs: [Logical.From](https://docs.microsoft.com/en-us/powerquery-m/log
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [Uri.Parts](https://docs.microsoft.com/en-us/powerquery-m/uri-pa
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [Combiner.CombineTextByPositions](https://docs.microsoft.com/en-
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

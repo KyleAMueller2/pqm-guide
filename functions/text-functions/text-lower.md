@@ -7,7 +7,7 @@ Microsoft Docs: [Text.Lower](https://docs.microsoft.com/en-us/powerquery-m/text-
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [Single.From](https://docs.microsoft.com/en-us/powerquery-m/sing
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

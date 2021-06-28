@@ -7,7 +7,7 @@ Microsoft Docs: [Number.Acos](https://docs.microsoft.com/en-us/powerquery-m/numb
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

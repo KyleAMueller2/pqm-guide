@@ -7,7 +7,7 @@ Microsoft Docs: [Identity.From](https://docs.microsoft.com/en-us/powerquery-m/id
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [DateTimeZone.FromText](https://docs.microsoft.com/en-us/powerqu
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

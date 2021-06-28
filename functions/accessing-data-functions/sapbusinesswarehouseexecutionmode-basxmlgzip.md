@@ -7,7 +7,7 @@ Microsoft Docs: [SapBusinessWarehouseExecutionMode.BasXmlGzip](https://docs.micr
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

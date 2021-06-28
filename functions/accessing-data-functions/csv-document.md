@@ -7,7 +7,7 @@ Microsoft Docs: [Csv.Document](https://docs.microsoft.com/en-us/powerquery-m/csv
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

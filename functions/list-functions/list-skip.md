@@ -7,7 +7,7 @@ Microsoft Docs: [List.Skip](https://docs.microsoft.com/en-us/powerquery-m/list-s
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [Type.FunctionRequiredParameters](https://docs.microsoft.com/en-
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

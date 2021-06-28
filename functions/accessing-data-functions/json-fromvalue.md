@@ -7,7 +7,7 @@ Microsoft Docs: [Json.FromValue](https://docs.microsoft.com/en-us/powerquery-m/j
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [Type.Facets](https://docs.microsoft.com/en-us/powerquery-m/type
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [DateTime.IsInPreviousHour](https://docs.microsoft.com/en-us/pow
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

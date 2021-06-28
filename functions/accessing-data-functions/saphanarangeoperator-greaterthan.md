@@ -7,7 +7,7 @@ Microsoft Docs: [SapHanaRangeOperator.GreaterThan](https://docs.microsoft.com/en
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [JoinSide.Left](https://docs.microsoft.com/en-us/powerquery-m/jo
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

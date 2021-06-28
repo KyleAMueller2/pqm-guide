@@ -7,7 +7,7 @@ Microsoft Docs: [List.FindText](https://docs.microsoft.com/en-us/powerquery-m/li
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

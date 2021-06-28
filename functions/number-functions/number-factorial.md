@@ -7,7 +7,7 @@ Microsoft Docs: [Number.Factorial](https://docs.microsoft.com/en-us/powerquery-m
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

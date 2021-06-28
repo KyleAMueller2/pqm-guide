@@ -7,7 +7,7 @@ Microsoft Docs: [Type.TableRow](https://docs.microsoft.com/en-us/powerquery-m/ty
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

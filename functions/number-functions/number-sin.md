@@ -7,7 +7,7 @@ Microsoft Docs: [Number.Sin](https://docs.microsoft.com/en-us/powerquery-m/numbe
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

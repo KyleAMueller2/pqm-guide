@@ -7,7 +7,7 @@ Microsoft Docs: [ActiveDirectory.Domains](https://docs.microsoft.com/en-us/power
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

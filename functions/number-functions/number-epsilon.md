@@ -7,7 +7,7 @@ Microsoft Docs: [Number.Epsilon](https://docs.microsoft.com/en-us/powerquery-m/n
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

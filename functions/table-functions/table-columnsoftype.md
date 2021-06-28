@@ -7,7 +7,7 @@ Microsoft Docs: [Table.ColumnsOfType](https://docs.microsoft.com/en-us/powerquer
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

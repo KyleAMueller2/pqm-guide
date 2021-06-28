@@ -7,7 +7,7 @@ Microsoft Docs: [Folder.Files](https://docs.microsoft.com/en-us/powerquery-m/fol
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

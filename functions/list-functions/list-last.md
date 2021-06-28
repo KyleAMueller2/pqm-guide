@@ -7,7 +7,7 @@ Microsoft Docs: [List.Last](https://docs.microsoft.com/en-us/powerquery-m/list-l
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

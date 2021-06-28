@@ -7,7 +7,7 @@ Microsoft Docs: [Combiner.CombineTextByDelimiter](https://docs.microsoft.com/en-
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

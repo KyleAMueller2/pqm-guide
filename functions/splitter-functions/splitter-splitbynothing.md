@@ -7,7 +7,7 @@ Microsoft Docs: [Splitter.SplitByNothing](https://docs.microsoft.com/en-us/power
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [Date.Year](https://docs.microsoft.com/en-us/powerquery-m/date-y
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

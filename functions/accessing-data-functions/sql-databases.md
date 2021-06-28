@@ -7,7 +7,7 @@ Microsoft Docs: [Sql.Databases](https://docs.microsoft.com/en-us/powerquery-m/sq
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

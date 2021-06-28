@@ -7,7 +7,7 @@ Microsoft Docs: [Day.Thursday](https://docs.microsoft.com/en-us/powerquery-m/day
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

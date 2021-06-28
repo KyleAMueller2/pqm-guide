@@ -7,7 +7,7 @@ Microsoft Docs: [Binary.Range](https://docs.microsoft.com/en-us/powerquery-m/bin
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

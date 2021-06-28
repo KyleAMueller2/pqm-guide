@@ -7,7 +7,7 @@ Microsoft Docs: [Essbase.Cubes](https://docs.microsoft.com/en-us/powerquery-m/es
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [Table.PartitionValues](https://docs.microsoft.com/en-us/powerqu
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [List.Transform](https://docs.microsoft.com/en-us/powerquery-m/l
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

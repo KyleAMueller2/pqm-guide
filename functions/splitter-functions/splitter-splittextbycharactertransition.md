@@ -7,7 +7,7 @@ Microsoft Docs: [Splitter.SplitTextByCharacterTransition](https://docs.microsoft
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

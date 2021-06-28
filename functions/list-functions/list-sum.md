@@ -7,7 +7,7 @@ Microsoft Docs: [List.Sum](https://docs.microsoft.com/en-us/powerquery-m/list-su
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

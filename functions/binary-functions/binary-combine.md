@@ -7,7 +7,7 @@ Microsoft Docs: [Binary.Combine](https://docs.microsoft.com/en-us/powerquery-m/b
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

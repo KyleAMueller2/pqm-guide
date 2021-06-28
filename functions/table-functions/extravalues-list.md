@@ -7,7 +7,7 @@ Microsoft Docs: [ExtraValues.List](https://docs.microsoft.com/en-us/powerquery-m
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

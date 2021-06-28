@@ -7,7 +7,7 @@ Microsoft Docs: [Compression.Zstandard](https://docs.microsoft.com/en-us/powerqu
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

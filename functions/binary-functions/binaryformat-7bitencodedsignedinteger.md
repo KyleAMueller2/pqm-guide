@@ -7,7 +7,7 @@ Microsoft Docs: [BinaryFormat.7BitEncodedSignedInteger](https://docs.microsoft.c
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

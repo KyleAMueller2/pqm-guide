@@ -7,7 +7,7 @@ Microsoft Docs: [Hdfs.Files](https://docs.microsoft.com/en-us/powerquery-m/hdfs-
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

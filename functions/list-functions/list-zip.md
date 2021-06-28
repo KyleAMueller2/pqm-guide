@@ -7,7 +7,7 @@ Microsoft Docs: [List.Zip](https://docs.microsoft.com/en-us/powerquery-m/list-zi
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

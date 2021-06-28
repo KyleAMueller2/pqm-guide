@@ -7,7 +7,7 @@ Microsoft Docs: [Value.Is](https://docs.microsoft.com/en-us/powerquery-m/value-i
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

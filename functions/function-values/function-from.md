@@ -7,7 +7,7 @@ Microsoft Docs: [Function.From](https://docs.microsoft.com/en-us/powerquery-m/fu
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [Table.SplitAt](https://docs.microsoft.com/en-us/powerquery-m/ta
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [Xml.Document](https://docs.microsoft.com/en-us/powerquery-m/xml
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

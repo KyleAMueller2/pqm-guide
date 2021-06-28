@@ -7,7 +7,7 @@ Microsoft Docs: [Duration.Days](https://docs.microsoft.com/en-us/powerquery-m/du
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

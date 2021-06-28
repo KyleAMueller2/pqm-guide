@@ -7,7 +7,7 @@ Microsoft Docs: [BinaryFormat.SignedInteger32](https://docs.microsoft.com/en-us/
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

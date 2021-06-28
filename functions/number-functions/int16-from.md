@@ -7,7 +7,7 @@ Microsoft Docs: [Int16.From](https://docs.microsoft.com/en-us/powerquery-m/int16
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

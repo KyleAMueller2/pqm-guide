@@ -7,7 +7,7 @@ Microsoft Docs: [Table.Sort](https://docs.microsoft.com/en-us/powerquery-m/table
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

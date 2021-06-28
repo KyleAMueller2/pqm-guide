@@ -7,7 +7,7 @@ Microsoft Docs: [DateTime.FromFileTime](https://docs.microsoft.com/en-us/powerqu
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

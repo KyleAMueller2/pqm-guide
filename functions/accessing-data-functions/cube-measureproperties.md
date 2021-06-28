@@ -7,7 +7,7 @@ Microsoft Docs: [Cube.MeasureProperties](https://docs.microsoft.com/en-us/powerq
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

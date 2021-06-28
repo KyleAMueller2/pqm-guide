@@ -7,7 +7,7 @@ Microsoft Docs: [Date.IsInPreviousWeek](https://docs.microsoft.com/en-us/powerqu
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

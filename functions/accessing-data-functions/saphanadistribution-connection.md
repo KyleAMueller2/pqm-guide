@@ -7,7 +7,7 @@ Microsoft Docs: [SapHanaDistribution.Connection](https://docs.microsoft.com/en-u
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

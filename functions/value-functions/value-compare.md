@@ -7,7 +7,7 @@ Microsoft Docs: [Value.Compare](https://docs.microsoft.com/en-us/powerquery-m/va
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

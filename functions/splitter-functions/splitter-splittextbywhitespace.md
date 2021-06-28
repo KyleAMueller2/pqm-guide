@@ -7,7 +7,7 @@ Microsoft Docs: [Splitter.SplitTextByWhitespace](https://docs.microsoft.com/en-u
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

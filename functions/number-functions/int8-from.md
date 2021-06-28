@@ -7,7 +7,7 @@ Microsoft Docs: [Int8.From](https://docs.microsoft.com/en-us/powerquery-m/int8-f
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

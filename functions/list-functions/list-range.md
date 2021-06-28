@@ -7,7 +7,7 @@ Microsoft Docs: [List.Range](https://docs.microsoft.com/en-us/powerquery-m/list-
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

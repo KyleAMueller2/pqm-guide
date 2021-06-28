@@ -7,7 +7,7 @@ Microsoft Docs: [Web.Page](https://docs.microsoft.com/en-us/powerquery-m/web-pag
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

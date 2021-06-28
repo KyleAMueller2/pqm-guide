@@ -7,7 +7,7 @@ Microsoft Docs: [Odbc.Query](https://docs.microsoft.com/en-us/powerquery-m/odbc-
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [Number.Random](https://docs.microsoft.com/en-us/powerquery-m/nu
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

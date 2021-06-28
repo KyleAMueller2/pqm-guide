@@ -7,7 +7,7 @@ Microsoft Docs: [Table.Schema](https://docs.microsoft.com/en-us/powerquery-m/tab
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

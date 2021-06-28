@@ -7,7 +7,7 @@ Microsoft Docs: [Excel.Workbook](https://docs.microsoft.com/en-us/powerquery-m/e
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

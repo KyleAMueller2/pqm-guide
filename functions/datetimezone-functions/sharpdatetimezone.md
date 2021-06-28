@@ -7,7 +7,7 @@ Microsoft Docs: [\#datetimezone](https://docs.microsoft.com/en-us/powerquery-m/s
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

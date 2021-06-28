@@ -7,7 +7,7 @@ Microsoft Docs: [Table.ReplaceRelationshipIdentity](https://docs.microsoft.com/e
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

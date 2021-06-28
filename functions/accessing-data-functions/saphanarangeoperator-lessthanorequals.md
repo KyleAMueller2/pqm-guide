@@ -7,7 +7,7 @@ Microsoft Docs: [SapHanaRangeOperator.LessThanOrEquals](https://docs.microsoft.c
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

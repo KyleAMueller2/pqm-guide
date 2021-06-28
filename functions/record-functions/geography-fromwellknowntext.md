@@ -7,7 +7,7 @@ Microsoft Docs: [Geography.FromWellKnownText](https://docs.microsoft.com/en-us/p
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

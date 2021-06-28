@@ -7,7 +7,7 @@ Microsoft Docs: [Record.ToList](https://docs.microsoft.com/en-us/powerquery-m/re
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

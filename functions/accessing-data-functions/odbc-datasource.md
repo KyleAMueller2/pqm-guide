@@ -7,7 +7,7 @@ Microsoft Docs: [Odbc.DataSource](https://docs.microsoft.com/en-us/powerquery-m/
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [Text.Trim](https://docs.microsoft.com/en-us/powerquery-m/text-t
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

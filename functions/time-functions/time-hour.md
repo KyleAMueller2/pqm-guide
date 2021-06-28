@@ -7,7 +7,7 @@ Microsoft Docs: [Time.Hour](https://docs.microsoft.com/en-us/powerquery-m/time-h
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

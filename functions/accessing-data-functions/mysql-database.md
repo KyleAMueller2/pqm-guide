@@ -7,7 +7,7 @@ Microsoft Docs: [MySQL.Database](https://docs.microsoft.com/en-us/powerquery-m/m
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

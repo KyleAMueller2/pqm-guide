@@ -7,7 +7,7 @@ Microsoft Docs: [DateTimeZone.LocalNow](https://docs.microsoft.com/en-us/powerqu
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

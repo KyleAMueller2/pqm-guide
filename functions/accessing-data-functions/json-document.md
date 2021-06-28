@@ -7,7 +7,7 @@ Microsoft Docs: [Json.Document](https://docs.microsoft.com/en-us/powerquery-m/js
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

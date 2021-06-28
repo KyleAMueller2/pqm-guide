@@ -7,7 +7,7 @@ Microsoft Docs: [Splitter.SplitTextByEachDelimiter](https://docs.microsoft.com/e
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

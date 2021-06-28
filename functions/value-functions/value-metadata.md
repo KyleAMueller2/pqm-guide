@@ -7,7 +7,7 @@ Microsoft Docs: [Value.Metadata](https://docs.microsoft.com/en-us/powerquery-m/v
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

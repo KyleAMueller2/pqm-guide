@@ -7,7 +7,7 @@ Microsoft Docs: [Record.Combine](https://docs.microsoft.com/en-us/powerquery-m/r
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

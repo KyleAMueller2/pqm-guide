@@ -7,7 +7,7 @@ Microsoft Docs: [Time.ToText](https://docs.microsoft.com/en-us/powerquery-m/time
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

@@ -7,7 +7,7 @@ Microsoft Docs: [JoinAlgorithm.RightHash](https://docs.microsoft.com/en-us/power
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

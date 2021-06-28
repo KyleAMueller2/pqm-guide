@@ -7,7 +7,7 @@ Microsoft Docs: [\#table](https://docs.microsoft.com/en-us/powerquery-m/sharptab
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

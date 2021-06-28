@@ -7,7 +7,7 @@ Microsoft Docs: [CsvStyle.QuoteAfterDelimiter](https://docs.microsoft.com/en-us/
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

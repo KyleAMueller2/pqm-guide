@@ -7,7 +7,7 @@ Microsoft Docs: [OleDb.Query](https://docs.microsoft.com/en-us/powerquery-m/oled
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 

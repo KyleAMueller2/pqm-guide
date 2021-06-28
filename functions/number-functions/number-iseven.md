@@ -7,7 +7,7 @@ Microsoft Docs: [Number.IsEven](https://docs.microsoft.com/en-us/powerquery-m/nu
 
 ## Syntax
 
-```
+```powerquery-m
 Syntax for this function.
 ```
 
