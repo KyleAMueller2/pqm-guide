@@ -1,1 +1,1 @@
-docker run --rm -v `pwd`:/srv/jekyll/ -p 4000:4000 -it jekyll/jekyll bash
+docker run --rm -v %CD%:/srv/jekyll/ -p 4000:4000 -it jekyll/jekyll bash
