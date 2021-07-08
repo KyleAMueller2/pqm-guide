@@ -22,7 +22,6 @@ plugins:
 
 exclude:
   - Makefile
-  - CNAME
   - LICENSE
   - update.sh
   - Gemfile
@@ -33,3 +32,11 @@ exclude:
   - package-lock.json
   - webpack.config.js
   - jekyll-rtd-theme.gemspec
+  - build.bat
+  - build.sh
+  - serve.bat
+  - serve.sh
+  - shell.bat
+  - shell.sh
+  - create_function_pages.py
+  - power_m_functions.txt

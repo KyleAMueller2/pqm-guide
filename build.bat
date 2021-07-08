@@ -1,1 +1,1 @@
-docker run --rm -v %CD%:/srv/jekyll/ jekyll/jekyll jekyll build
+docker run --rm -v %CD%:/srv/jekyll/ pqm-guide-jekyll jekyll build
