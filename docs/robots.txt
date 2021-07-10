@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: /pqm-guide/sitemap.xml
+Sitemap: /sitemap.xml
