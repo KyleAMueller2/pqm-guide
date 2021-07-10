@@ -1,1 +1,1 @@
-docker run --rm -v %CD%:/srv/jekyll/ -p 4000:4000 jaxbulsara/pqm-guide-jekyll jekyll serve
+docker run --rm -v "%CD%":/srv/jekyll/ -p 4000:4000 jaxbulsara/pqm-guide-jekyll jekyll serve
