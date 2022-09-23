@@ -1,6 +1,6 @@
 # Welcome to the PowerQuery M Community Reference Guide!
 
-View the guide! [pqm.guide](https://pqm.guide)
+View the guide at: [pqm.guide](https://pqm.guide)
 
 This site was inspired by [dax.guide](https://dax.guide) that was created by
 the amazing folks at SQLBI.
