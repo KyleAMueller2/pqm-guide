@@ -1,7 +1,7 @@
 Comparer functions
 ==================
 
-Microsoft Docs: [Comparer functions](https://docs.microsoft.com/en-us/powerquery-m/comparer-functions)
+Microsoft Docs: `Comparer functions <https://docs.microsoft.com/en-us/powerquery-m/comparer-functions>`_
 
 About this function group.
 

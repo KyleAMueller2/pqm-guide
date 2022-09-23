@@ -1,7 +1,7 @@
 Text functions
 ==============
 
-Microsoft Docs: [Text functions](https://docs.microsoft.com/en-us/powerquery-m/text-functions)
+Microsoft Docs: `Text functions <https://docs.microsoft.com/en-us/powerquery-m/text-functions>`_
 
 About this function group.
 

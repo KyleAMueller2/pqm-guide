@@ -1,7 +1,7 @@
 Type functions
 ==============
 
-Microsoft Docs: [Type functions](https://docs.microsoft.com/en-us/powerquery-m/type-functions)
+Microsoft Docs: `Type functions <https://docs.microsoft.com/en-us/powerquery-m/type-functions>`_
 
 About this function group.
 

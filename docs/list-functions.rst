@@ -1,7 +1,7 @@
 List functions
 ==============
 
-Microsoft Docs: [List functions](https://docs.microsoft.com/en-us/powerquery-m/list-functions)
+Microsoft Docs: `List functions <https://docs.microsoft.com/en-us/powerquery-m/list-functions>`_
 
 About this function group.
 

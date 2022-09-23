@@ -1,7 +1,7 @@
 Time functions
 ==============
 
-Microsoft Docs: [Time functions](https://docs.microsoft.com/en-us/powerquery-m/time-functions)
+Microsoft Docs: `Time functions <https://docs.microsoft.com/en-us/powerquery-m/time-functions>`_
 
 About this function group.
 

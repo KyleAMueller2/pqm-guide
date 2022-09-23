@@ -1,7 +1,7 @@
 Uri functions
 =============
 
-Microsoft Docs: [Uri functions](https://docs.microsoft.com/en-us/powerquery-m/uri-functions)
+Microsoft Docs: `Uri functions <https://docs.microsoft.com/en-us/powerquery-m/uri-functions>`_
 
 About this function group.
 

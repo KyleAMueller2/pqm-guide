@@ -1,7 +1,7 @@
 Table functions
 ===============
 
-Microsoft Docs: [Table functions](https://docs.microsoft.com/en-us/powerquery-m/table-functions)
+Microsoft Docs: `Table functions <https://docs.microsoft.com/en-us/powerquery-m/table-functions>`_
 
 About this function group.
 

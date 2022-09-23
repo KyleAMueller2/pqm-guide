@@ -1,7 +1,7 @@
 Date functions
 ==============
 
-Microsoft Docs: [Date functions](https://docs.microsoft.com/en-us/powerquery-m/date-functions)
+Microsoft Docs: `Date functions <https://docs.microsoft.com/en-us/powerquery-m/date-functions>`_
 
 About this function group.
 

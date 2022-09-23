@@ -1,7 +1,7 @@
 DateTimeZone functions
 ======================
 
-Microsoft Docs: [DateTimeZone functions](https://docs.microsoft.com/en-us/powerquery-m/datetimezone-functions)
+Microsoft Docs: `DateTimeZone functions <https://docs.microsoft.com/en-us/powerquery-m/datetimezone-functions>`_
 
 About this function group.
 

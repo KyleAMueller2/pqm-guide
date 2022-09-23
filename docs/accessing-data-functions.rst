@@ -1,7 +1,7 @@
 Accessing data functions
 ========================
 
-Microsoft Docs: [Accessing data functions](https://docs.microsoft.com/en-us/powerquery-m/accessing-data-functions)
+Microsoft Docs: `Accessing data functions <https://docs.microsoft.com/en-us/powerquery-m/accessing-data-functions>`_
 
 About this function group.
 

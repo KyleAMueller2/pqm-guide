@@ -1,7 +1,7 @@
 Splitter functions
 ==================
 
-Microsoft Docs: [Splitter functions](https://docs.microsoft.com/en-us/powerquery-m/splitter-functions)
+Microsoft Docs: `Splitter functions <https://docs.microsoft.com/en-us/powerquery-m/splitter-functions>`_
 
 About this function group.
 

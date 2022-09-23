@@ -1,7 +1,7 @@
 Expression functions
 ====================
 
-Microsoft Docs: [Expression functions](https://docs.microsoft.com/en-us/powerquery-m/expression-functions)
+Microsoft Docs: `Expression functions <https://docs.microsoft.com/en-us/powerquery-m/expression-functions>`_
 
 About this function group.
 

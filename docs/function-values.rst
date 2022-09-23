@@ -1,7 +1,7 @@
 Function values
 ===============
 
-Microsoft Docs: [Function values](https://docs.microsoft.com/en-us/powerquery-m/function-values)
+Microsoft Docs: `Function values <https://docs.microsoft.com/en-us/powerquery-m/function-values>`_
 
 About this function group.
 

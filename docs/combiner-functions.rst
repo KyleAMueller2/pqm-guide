@@ -1,7 +1,7 @@
 Combiner functions
 ==================
 
-Microsoft Docs: [Combiner functions](https://docs.microsoft.com/en-us/powerquery-m/combiner-functions)
+Microsoft Docs: `Combiner functions <https://docs.microsoft.com/en-us/powerquery-m/combiner-functions>`_
 
 About this function group.
 
