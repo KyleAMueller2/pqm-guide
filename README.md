@@ -66,11 +66,8 @@ pipenv install
 
 What will happen is `pipenv` will read the `Pipfile` and install the packages
 needed to build the site with `sphinx` in an isolated python environment. Once
-`pipenv` is finished installing, build the site with:
-
-```terminal
-pipenv run build
-```
+`pipenv` is finished installing, build the site by running `build.bat` or
+`build.sh`.
 
 The first time you run this command, `sphinx` will take a while to build every
 page in the site into HTML files. Once you've run it once, any subsequent
