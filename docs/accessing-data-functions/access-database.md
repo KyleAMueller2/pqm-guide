@@ -10,5 +10,4 @@ Syntax for this function.
 
 ## About
 
-About this function.
-
+Here is an actual description of what this function does.
