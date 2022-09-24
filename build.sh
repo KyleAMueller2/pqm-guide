@@ -1,1 +1,0 @@
-docker run --rm -v `pwd`:/srv/jekyll/ jaxbulsara/pqm-guide-jekyll jekyll build

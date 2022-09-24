@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Text functions &mdash; PowerQuery M Reference Guide  documentation</title><link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Character.FromNumber" href="text-functions/character-fromnumber.html" />
+    <link rel="prev" title="Tables.GetRelationships" href="table-functions/tables-getrelationships.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> PowerQuery M Reference Guide
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="accessing-data-functions.html">Accessing data functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="binary-functions.html">Binary functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="combiner-functions.html">Combiner functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comparer-functions.html">Comparer functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="date-functions.html">Date functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datetime-functions.html">DateTime functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datetimezone-functions.html">DateTimeZone functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duration-functions.html">Duration functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="error-handling.html">Error handling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="expression-functions.html">Expression functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="function-values.html">Function values</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lines-functions.html">Lines functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="list-functions.html">List functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logical-functions.html">Logical functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="number-functions.html">Number functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="record-functions.html">Record functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="replacer-functions.html">Replacer functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="splitter-functions.html">Splitter functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions.html">Table functions</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Text functions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/character-fromnumber.html">Character.FromNumber</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/character-tonumber.html">Character.ToNumber</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/guid-from.html">Guid.From</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/json-fromvalue.html">Json.FromValue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/relativeposition-fromend.html">RelativePosition.FromEnd</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/relativeposition-fromstart.html">RelativePosition.FromStart</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-afterdelimiter.html">Text.AfterDelimiter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-at.html">Text.At</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-beforedelimiter.html">Text.BeforeDelimiter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-betweendelimiters.html">Text.BetweenDelimiters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-clean.html">Text.Clean</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-combine.html">Text.Combine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-contains.html">Text.Contains</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-end.html">Text.End</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-endswith.html">Text.EndsWith</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-format.html">Text.Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-from.html">Text.From</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-frombinary.html">Text.FromBinary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-infernumbertype.html">Text.InferNumberType</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-insert.html">Text.Insert</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-length.html">Text.Length</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-lower.html">Text.Lower</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-middle.html">Text.Middle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-newguid.html">Text.NewGuid</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-padend.html">Text.PadEnd</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-padstart.html">Text.PadStart</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-positionof.html">Text.PositionOf</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-positionofany.html">Text.PositionOfAny</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-proper.html">Text.Proper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-range.html">Text.Range</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-remove.html">Text.Remove</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-removerange.html">Text.RemoveRange</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-repeat.html">Text.Repeat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-replace.html">Text.Replace</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-replacerange.html">Text.ReplaceRange</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-reverse.html">Text.Reverse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-select.html">Text.Select</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-split.html">Text.Split</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-splitany.html">Text.SplitAny</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-start.html">Text.Start</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-startswith.html">Text.StartsWith</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-tobinary.html">Text.ToBinary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-tolist.html">Text.ToList</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-trim.html">Text.Trim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-trimend.html">Text.TrimEnd</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-trimstart.html">Text.TrimStart</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/text-upper.html">Text.Upper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/textencoding-ascii.html">TextEncoding.Ascii</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/textencoding-bigendianunicode.html">TextEncoding.BigEndianUnicode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/textencoding-unicode.html">TextEncoding.Unicode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/textencoding-utf16.html">TextEncoding.Utf16</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/textencoding-utf8.html">TextEncoding.Utf8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="text-functions/textencoding-windows.html">TextEncoding.Windows</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="time-functions.html">Time functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="type-functions.html">Type functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="uri-functions.html">Uri functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="value-functions.html">Value functions</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">PowerQuery M Reference Guide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Text functions</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/text-functions.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="text-functions">
+<h1>Text functions<a class="headerlink" href="#text-functions" title="Permalink to this headline"></a></h1>
+<p>Microsoft Docs: <a class="reference external" href="https://docs.microsoft.com/en-us/powerquery-m/text-functions">Text functions</a></p>
+<p>About this function group.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/character-fromnumber.html">Character.FromNumber</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/character-tonumber.html">Character.ToNumber</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/guid-from.html">Guid.From</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/json-fromvalue.html">Json.FromValue</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/relativeposition-fromend.html">RelativePosition.FromEnd</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/relativeposition-fromstart.html">RelativePosition.FromStart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-afterdelimiter.html">Text.AfterDelimiter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-at.html">Text.At</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-beforedelimiter.html">Text.BeforeDelimiter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-betweendelimiters.html">Text.BetweenDelimiters</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-clean.html">Text.Clean</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-combine.html">Text.Combine</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-contains.html">Text.Contains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-end.html">Text.End</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-endswith.html">Text.EndsWith</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-format.html">Text.Format</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-from.html">Text.From</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-frombinary.html">Text.FromBinary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-infernumbertype.html">Text.InferNumberType</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-insert.html">Text.Insert</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-length.html">Text.Length</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-lower.html">Text.Lower</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-middle.html">Text.Middle</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-newguid.html">Text.NewGuid</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-padend.html">Text.PadEnd</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-padstart.html">Text.PadStart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-positionof.html">Text.PositionOf</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-positionofany.html">Text.PositionOfAny</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-proper.html">Text.Proper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-range.html">Text.Range</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-remove.html">Text.Remove</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-removerange.html">Text.RemoveRange</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-repeat.html">Text.Repeat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-replace.html">Text.Replace</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-replacerange.html">Text.ReplaceRange</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-reverse.html">Text.Reverse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-select.html">Text.Select</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-split.html">Text.Split</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-splitany.html">Text.SplitAny</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-start.html">Text.Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-startswith.html">Text.StartsWith</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-tobinary.html">Text.ToBinary</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-tolist.html">Text.ToList</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-trim.html">Text.Trim</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-trimend.html">Text.TrimEnd</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-trimstart.html">Text.TrimStart</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/text-upper.html">Text.Upper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/textencoding-ascii.html">TextEncoding.Ascii</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/textencoding-bigendianunicode.html">TextEncoding.BigEndianUnicode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/textencoding-unicode.html">TextEncoding.Unicode</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/textencoding-utf16.html">TextEncoding.Utf16</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/textencoding-utf8.html">TextEncoding.Utf8</a></li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions/textencoding-windows.html">TextEncoding.Windows</a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="table-functions/tables-getrelationships.html" class="btn btn-neutral float-left" title="Tables.GetRelationships" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="text-functions/character-fromnumber.html" class="btn btn-neutral float-right" title="Character.FromNumber" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Jay Bulsara.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

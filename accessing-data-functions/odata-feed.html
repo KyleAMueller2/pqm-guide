@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OData.Feed &mdash; PowerQuery M Reference Guide  documentation</title><link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="ODataOmitValues.Nulls" href="odataomitvalues-nulls.html" />
+    <link rel="prev" title="MySQL.Database" href="mysql-database.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> PowerQuery M Reference Guide
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../accessing-data-functions.html">Accessing data functions</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="access-database.html">Access.Database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accesscontrolentry-conditiontoidentities.html">AccessControlEntry.ConditionToIdentities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accesscontrolkind-allow.html">AccessControlKind.Allow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accesscontrolkind-deny.html">AccessControlKind.Deny</a></li>
+<li class="toctree-l2"><a class="reference internal" href="activedirectory-domains.html">ActiveDirectory.Domains</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adobeanalytics-cubes.html">AdobeAnalytics.Cubes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adodotnet-datasource.html">AdoDotNet.DataSource</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adodotnet-query.html">AdoDotNet.Query</a></li>
+<li class="toctree-l2"><a class="reference internal" href="analysisservices-database.html">AnalysisServices.Database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="analysisservices-databases.html">AnalysisServices.Databases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="azurestorage-blobcontents.html">AzureStorage.BlobContents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="azurestorage-blobs.html">AzureStorage.Blobs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="azurestorage-datalake.html">AzureStorage.DataLake</a></li>
+<li class="toctree-l2"><a class="reference internal" href="azurestorage-datalakecontents.html">AzureStorage.DataLakeContents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="azurestorage-tables.html">AzureStorage.Tables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cdm-contents.html">Cdm.Contents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="csv-document.html">Csv.Document</a></li>
+<li class="toctree-l2"><a class="reference internal" href="csvstyle-quoteafterdelimiter.html">CsvStyle.QuoteAfterDelimiter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="csvstyle-quotealways.html">CsvStyle.QuoteAlways</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cube-addandexpanddimensioncolumn.html">Cube.AddAndExpandDimensionColumn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cube-addmeasurecolumn.html">Cube.AddMeasureColumn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cube-applyparameter.html">Cube.ApplyParameter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cube-attributememberid.html">Cube.AttributeMemberId</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cube-attributememberproperty.html">Cube.AttributeMemberProperty</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cube-collapseandremovecolumns.html">Cube.CollapseAndRemoveColumns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cube-dimensions.html">Cube.Dimensions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cube-displayfolders.html">Cube.DisplayFolders</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cube-measureproperties.html">Cube.MeasureProperties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cube-measureproperty.html">Cube.MeasureProperty</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cube-measures.html">Cube.Measures</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cube-parameters.html">Cube.Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cube-properties.html">Cube.Properties</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cube-propertykey.html">Cube.PropertyKey</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cube-replacedimensions.html">Cube.ReplaceDimensions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cube-transform.html">Cube.Transform</a></li>
+<li class="toctree-l2"><a class="reference internal" href="db2-database.html">DB2.Database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="essbase-cubes.html">Essbase.Cubes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="excel-currentworkbook.html">Excel.CurrentWorkbook</a></li>
+<li class="toctree-l2"><a class="reference internal" href="excel-workbook.html">Excel.Workbook</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exchange-contents.html">Exchange.Contents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file-contents.html">File.Contents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="folder-contents.html">Folder.Contents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="folder-files.html">Folder.Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="googleanalytics-accounts.html">GoogleAnalytics.Accounts</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hdfs-contents.html">Hdfs.Contents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hdfs-files.html">Hdfs.Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hdinsight-containers.html">HdInsight.Containers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hdinsight-contents.html">HdInsight.Contents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hdinsight-files.html">HdInsight.Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="html-table.html">Html.Table</a></li>
+<li class="toctree-l2"><a class="reference internal" href="identity-from.html">Identity.From</a></li>
+<li class="toctree-l2"><a class="reference internal" href="identity-ismemberof.html">Identity.IsMemberOf</a></li>
+<li class="toctree-l2"><a class="reference internal" href="identityprovider-default.html">IdentityProvider.Default</a></li>
+<li class="toctree-l2"><a class="reference internal" href="informix-database.html">Informix.Database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="json-document.html">Json.Document</a></li>
+<li class="toctree-l2"><a class="reference internal" href="json-fromvalue.html">Json.FromValue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mysql-database.html">MySQL.Database</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">OData.Feed</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#syntax">Syntax</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#about">About</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="odataomitvalues-nulls.html">ODataOmitValues.Nulls</a></li>
+<li class="toctree-l2"><a class="reference internal" href="odbc-datasource.html">Odbc.DataSource</a></li>
+<li class="toctree-l2"><a class="reference internal" href="odbc-inferoptions.html">Odbc.InferOptions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="odbc-query.html">Odbc.Query</a></li>
+<li class="toctree-l2"><a class="reference internal" href="oledb-datasource.html">OleDb.DataSource</a></li>
+<li class="toctree-l2"><a class="reference internal" href="oledb-query.html">OleDb.Query</a></li>
+<li class="toctree-l2"><a class="reference internal" href="oracle-database.html">Oracle.Database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="pdf-tables.html">Pdf.Tables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="postgresql-database.html">PostgreSQL.Database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="rdata-frombinary.html">RData.FromBinary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="salesforce-data.html">Salesforce.Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="salesforce-reports.html">Salesforce.Reports</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sapbusinesswarehouse-cubes.html">SapBusinessWarehouse.Cubes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sapbusinesswarehouseexecutionmode-basxml.html">SapBusinessWarehouseExecutionMode.BasXml</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sapbusinesswarehouseexecutionmode-basxmlgzip.html">SapBusinessWarehouseExecutionMode.BasXmlGzip</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sapbusinesswarehouseexecutionmode-datastream.html">SapBusinessWarehouseExecutionMode.DataStream</a></li>
+<li class="toctree-l2"><a class="reference internal" href="saphana-database.html">SapHana.Database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="saphanadistribution-all.html">SapHanaDistribution.All</a></li>
+<li class="toctree-l2"><a class="reference internal" href="saphanadistribution-connection.html">SapHanaDistribution.Connection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="saphanadistribution-off.html">SapHanaDistribution.Off</a></li>
+<li class="toctree-l2"><a class="reference internal" href="saphanadistribution-statement.html">SapHanaDistribution.Statement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="saphanarangeoperator-equals.html">SapHanaRangeOperator.Equals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="saphanarangeoperator-greaterthan.html">SapHanaRangeOperator.GreaterThan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="saphanarangeoperator-greaterthanorequals.html">SapHanaRangeOperator.GreaterThanOrEquals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="saphanarangeoperator-lessthan.html">SapHanaRangeOperator.LessThan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="saphanarangeoperator-lessthanorequals.html">SapHanaRangeOperator.LessThanOrEquals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="saphanarangeoperator-notequals.html">SapHanaRangeOperator.NotEquals</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sharepoint-contents.html">SharePoint.Contents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sharepoint-files.html">SharePoint.Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sharepoint-tables.html">SharePoint.Tables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="soda-feed.html">Soda.Feed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sql-database.html">Sql.Database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sql-databases.html">Sql.Databases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sybase-database.html">Sybase.Database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="teradata-database.html">Teradata.Database</a></li>
+<li class="toctree-l2"><a class="reference internal" href="web-browsercontents.html">Web.BrowserContents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="web-contents.html">Web.Contents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="web-page.html">Web.Page</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webaction-request.html">WebAction.Request</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webmethod-delete.html">WebMethod.Delete</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webmethod-get.html">WebMethod.Get</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webmethod-head.html">WebMethod.Head</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webmethod-patch.html">WebMethod.Patch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webmethod-post.html">WebMethod.Post</a></li>
+<li class="toctree-l2"><a class="reference internal" href="webmethod-put.html">WebMethod.Put</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xml-document.html">Xml.Document</a></li>
+<li class="toctree-l2"><a class="reference internal" href="xml-tables.html">Xml.Tables</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../binary-functions.html">Binary functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../combiner-functions.html">Combiner functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../comparer-functions.html">Comparer functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../date-functions.html">Date functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../datetime-functions.html">DateTime functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../datetimezone-functions.html">DateTimeZone functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../duration-functions.html">Duration functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../error-handling.html">Error handling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../expression-functions.html">Expression functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../function-values.html">Function values</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lines-functions.html">Lines functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../list-functions.html">List functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../logical-functions.html">Logical functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../number-functions.html">Number functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../record-functions.html">Record functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../replacer-functions.html">Replacer functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../splitter-functions.html">Splitter functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../table-functions.html">Table functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../text-functions.html">Text functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../time-functions.html">Time functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../type-functions.html">Type functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uri-functions.html">Uri functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../value-functions.html">Value functions</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PowerQuery M Reference Guide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../accessing-data-functions.html">Accessing data functions</a> &raquo;</li>
+      <li>OData.Feed</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/accessing-data-functions/odata-feed.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="odata-feed">
+<h1>OData.Feed<a class="headerlink" href="#odata-feed" title="Permalink to this headline"></a></h1>
+<p>Microsoft Docs: <a class="reference external" href="https://docs.microsoft.com/en-us/powerquery-m/odata-feed">OData.Feed</a></p>
+<div class="section" id="syntax">
+<h2>Syntax<a class="headerlink" href="#syntax" title="Permalink to this headline"></a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Syntax</span> <span class="k">for</span> <span class="n">this</span> <span class="n">function</span><span class="o">.</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="about">
+<h2>About<a class="headerlink" href="#about" title="Permalink to this headline"></a></h2>
+<p>About this function.</p>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="mysql-database.html" class="btn btn-neutral float-left" title="MySQL.Database" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="odataomitvalues-nulls.html" class="btn btn-neutral float-right" title="ODataOmitValues.Nulls" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Jay Bulsara.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

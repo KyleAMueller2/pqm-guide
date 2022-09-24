@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Table functions &mdash; PowerQuery M Reference Guide  documentation</title><link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="ExtraValues.Error" href="table-functions/extravalues-error.html" />
+    <link rel="prev" title="Splitter.SplitTextByWhitespace" href="splitter-functions/splitter-splittextbywhitespace.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> PowerQuery M Reference Guide
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="accessing-data-functions.html">Accessing data functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="binary-functions.html">Binary functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="combiner-functions.html">Combiner functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="comparer-functions.html">Comparer functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="date-functions.html">Date functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datetime-functions.html">DateTime functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="datetimezone-functions.html">DateTimeZone functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="duration-functions.html">Duration functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="error-handling.html">Error handling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="expression-functions.html">Expression functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="function-values.html">Function values</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lines-functions.html">Lines functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="list-functions.html">List functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logical-functions.html">Logical functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="number-functions.html">Number functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="record-functions.html">Record functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="replacer-functions.html">Replacer functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="splitter-functions.html">Splitter functions</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Table functions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/extravalues-error.html">ExtraValues.Error</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/extravalues-ignore.html">ExtraValues.Ignore</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/extravalues-list.html">ExtraValues.List</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/groupkind-global.html">GroupKind.Global</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/groupkind-local.html">GroupKind.Local</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/itemexpression-from.html">ItemExpression.From</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/itemexpression-item.html">ItemExpression.Item</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/joinalgorithm-dynamic.html">JoinAlgorithm.Dynamic</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/joinalgorithm-lefthash.html">JoinAlgorithm.LeftHash</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/joinalgorithm-leftindex.html">JoinAlgorithm.LeftIndex</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/joinalgorithm-pairwisehash.html">JoinAlgorithm.PairwiseHash</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/joinalgorithm-righthash.html">JoinAlgorithm.RightHash</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/joinalgorithm-rightindex.html">JoinAlgorithm.RightIndex</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/joinalgorithm-sortmerge.html">JoinAlgorithm.SortMerge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/joinkind-fullouter.html">JoinKind.FullOuter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/joinkind-inner.html">JoinKind.Inner</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/joinkind-leftanti.html">JoinKind.LeftAnti</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/joinkind-leftouter.html">JoinKind.LeftOuter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/joinkind-rightanti.html">JoinKind.RightAnti</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/joinkind-rightouter.html">JoinKind.RightOuter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/joinside-left.html">JoinSide.Left</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/joinside-right.html">JoinSide.Right</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/occurrence-all.html">Occurrence.All</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/occurrence-first.html">Occurrence.First</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/occurrence-last.html">Occurrence.Last</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/order-ascending.html">Order.Ascending</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/order-descending.html">Order.Descending</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/rowexpression-column.html">RowExpression.Column</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/rowexpression-from.html">RowExpression.From</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/rowexpression-row.html">RowExpression.Row</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/sharptable.html">#table</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-addcolumn.html">Table.AddColumn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-addfuzzyclustercolumn.html">Table.AddFuzzyClusterColumn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-addindexcolumn.html">Table.AddIndexColumn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-addjoincolumn.html">Table.AddJoinColumn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-addkey.html">Table.AddKey</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-aggregatetablecolumn.html">Table.AggregateTableColumn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-alternaterows.html">Table.AlternateRows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-approximaterowcount.html">Table.ApproximateRowCount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-buffer.html">Table.Buffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-column.html">Table.Column</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-columncount.html">Table.ColumnCount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-columnnames.html">Table.ColumnNames</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-columnsoftype.html">Table.ColumnsOfType</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-combine.html">Table.Combine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-combinecolumns.html">Table.CombineColumns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-combinecolumnstorecord.html">Table.CombineColumnsToRecord</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-conformtopagereader.html">Table.ConformToPageReader</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-contains.html">Table.Contains</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-containsall.html">Table.ContainsAll</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-containsany.html">Table.ContainsAny</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-demoteheaders.html">Table.DemoteHeaders</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-distinct.html">Table.Distinct</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-duplicatecolumn.html">Table.DuplicateColumn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-expandlistcolumn.html">Table.ExpandListColumn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-expandrecordcolumn.html">Table.ExpandRecordColumn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-expandtablecolumn.html">Table.ExpandTableColumn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-filldown.html">Table.FillDown</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-fillup.html">Table.FillUp</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-filterwithdatatable.html">Table.FilterWithDataTable</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-findtext.html">Table.FindText</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-first.html">Table.First</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-firstn.html">Table.FirstN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-firstvalue.html">Table.FirstValue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-fromcolumns.html">Table.FromColumns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-fromlist.html">Table.FromList</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-frompartitions.html">Table.FromPartitions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-fromrecords.html">Table.FromRecords</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-fromrows.html">Table.FromRows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-fromvalue.html">Table.FromValue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-fuzzygroup.html">Table.FuzzyGroup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-fuzzyjoin.html">Table.FuzzyJoin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-fuzzynestedjoin.html">Table.FuzzyNestedJoin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-group.html">Table.Group</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-hascolumns.html">Table.HasColumns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-insertrows.html">Table.InsertRows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-isdistinct.html">Table.IsDistinct</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-isempty.html">Table.IsEmpty</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-join.html">Table.Join</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-keys.html">Table.Keys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-last.html">Table.Last</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-lastn.html">Table.LastN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-matchesallrows.html">Table.MatchesAllRows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-matchesanyrows.html">Table.MatchesAnyRows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-max.html">Table.Max</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-maxn.html">Table.MaxN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-min.html">Table.Min</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-minn.html">Table.MinN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-nestedjoin.html">Table.NestedJoin</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-partition.html">Table.Partition</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-partitionvalues.html">Table.PartitionValues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-pivot.html">Table.Pivot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-positionof.html">Table.PositionOf</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-positionofany.html">Table.PositionOfAny</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-prefixcolumns.html">Table.PrefixColumns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-profile.html">Table.Profile</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-promoteheaders.html">Table.PromoteHeaders</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-range.html">Table.Range</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-removecolumns.html">Table.RemoveColumns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-removefirstn.html">Table.RemoveFirstN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-removelastn.html">Table.RemoveLastN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-removematchingrows.html">Table.RemoveMatchingRows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-removerows.html">Table.RemoveRows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-removerowswitherrors.html">Table.RemoveRowsWithErrors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-renamecolumns.html">Table.RenameColumns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-reordercolumns.html">Table.ReorderColumns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-repeat.html">Table.Repeat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-replaceerrorvalues.html">Table.ReplaceErrorValues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-replacekeys.html">Table.ReplaceKeys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-replacematchingrows.html">Table.ReplaceMatchingRows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-replacerelationshipidentity.html">Table.ReplaceRelationshipIdentity</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-replacerows.html">Table.ReplaceRows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-replacevalue.html">Table.ReplaceValue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-reverserows.html">Table.ReverseRows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-rowcount.html">Table.RowCount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-schema.html">Table.Schema</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-selectcolumns.html">Table.SelectColumns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-selectrows.html">Table.SelectRows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-selectrowswitherrors.html">Table.SelectRowsWithErrors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-singlerow.html">Table.SingleRow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-skip.html">Table.Skip</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-sort.html">Table.Sort</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-split.html">Table.Split</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-splitat.html">Table.SplitAt</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-splitcolumn.html">Table.SplitColumn</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-tocolumns.html">Table.ToColumns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-tolist.html">Table.ToList</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-torecords.html">Table.ToRecords</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-torows.html">Table.ToRows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-transformcolumnnames.html">Table.TransformColumnNames</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-transformcolumns.html">Table.TransformColumns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-transformcolumntypes.html">Table.TransformColumnTypes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-transformrows.html">Table.TransformRows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-transpose.html">Table.Transpose</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-unpivot.html">Table.Unpivot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-unpivotothercolumns.html">Table.UnpivotOtherColumns</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-view.html">Table.View</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/table-viewfunction.html">Table.ViewFunction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="table-functions/tables-getrelationships.html">Tables.GetRelationships</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="text-functions.html">Text functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="time-functions.html">Time functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="type-functions.html">Type functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="uri-functions.html">Uri functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="value-functions.html">Value functions</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">PowerQuery M Reference Guide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Table functions</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/table-functions.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="table-functions">
+<h1>Table functions<a class="headerlink" href="#table-functions" title="Permalink to this headline"></a></h1>
+<p>Microsoft Docs: <a class="reference external" href="https://docs.microsoft.com/en-us/powerquery-m/table-functions">Table functions</a></p>
+<p>About this function group.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/extravalues-error.html">ExtraValues.Error</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/extravalues-ignore.html">ExtraValues.Ignore</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/extravalues-list.html">ExtraValues.List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/groupkind-global.html">GroupKind.Global</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/groupkind-local.html">GroupKind.Local</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/itemexpression-from.html">ItemExpression.From</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/itemexpression-item.html">ItemExpression.Item</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/joinalgorithm-dynamic.html">JoinAlgorithm.Dynamic</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/joinalgorithm-lefthash.html">JoinAlgorithm.LeftHash</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/joinalgorithm-leftindex.html">JoinAlgorithm.LeftIndex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/joinalgorithm-pairwisehash.html">JoinAlgorithm.PairwiseHash</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/joinalgorithm-righthash.html">JoinAlgorithm.RightHash</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/joinalgorithm-rightindex.html">JoinAlgorithm.RightIndex</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/joinalgorithm-sortmerge.html">JoinAlgorithm.SortMerge</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/joinkind-fullouter.html">JoinKind.FullOuter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/joinkind-inner.html">JoinKind.Inner</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/joinkind-leftanti.html">JoinKind.LeftAnti</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/joinkind-leftouter.html">JoinKind.LeftOuter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/joinkind-rightanti.html">JoinKind.RightAnti</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/joinkind-rightouter.html">JoinKind.RightOuter</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/joinside-left.html">JoinSide.Left</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/joinside-right.html">JoinSide.Right</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/occurrence-all.html">Occurrence.All</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/occurrence-first.html">Occurrence.First</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/occurrence-last.html">Occurrence.Last</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/order-ascending.html">Order.Ascending</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/order-descending.html">Order.Descending</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/rowexpression-column.html">RowExpression.Column</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/rowexpression-from.html">RowExpression.From</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/rowexpression-row.html">RowExpression.Row</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/sharptable.html">#table</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-addcolumn.html">Table.AddColumn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-addfuzzyclustercolumn.html">Table.AddFuzzyClusterColumn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-addindexcolumn.html">Table.AddIndexColumn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-addjoincolumn.html">Table.AddJoinColumn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-addkey.html">Table.AddKey</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-aggregatetablecolumn.html">Table.AggregateTableColumn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-alternaterows.html">Table.AlternateRows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-approximaterowcount.html">Table.ApproximateRowCount</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-buffer.html">Table.Buffer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-column.html">Table.Column</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-columncount.html">Table.ColumnCount</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-columnnames.html">Table.ColumnNames</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-columnsoftype.html">Table.ColumnsOfType</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-combine.html">Table.Combine</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-combinecolumns.html">Table.CombineColumns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-combinecolumnstorecord.html">Table.CombineColumnsToRecord</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-conformtopagereader.html">Table.ConformToPageReader</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-contains.html">Table.Contains</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-containsall.html">Table.ContainsAll</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-containsany.html">Table.ContainsAny</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-demoteheaders.html">Table.DemoteHeaders</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-distinct.html">Table.Distinct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-duplicatecolumn.html">Table.DuplicateColumn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-expandlistcolumn.html">Table.ExpandListColumn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-expandrecordcolumn.html">Table.ExpandRecordColumn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-expandtablecolumn.html">Table.ExpandTableColumn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-filldown.html">Table.FillDown</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-fillup.html">Table.FillUp</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-filterwithdatatable.html">Table.FilterWithDataTable</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-findtext.html">Table.FindText</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-first.html">Table.First</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-firstn.html">Table.FirstN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-firstvalue.html">Table.FirstValue</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-fromcolumns.html">Table.FromColumns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-fromlist.html">Table.FromList</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-frompartitions.html">Table.FromPartitions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-fromrecords.html">Table.FromRecords</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-fromrows.html">Table.FromRows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-fromvalue.html">Table.FromValue</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-fuzzygroup.html">Table.FuzzyGroup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-fuzzyjoin.html">Table.FuzzyJoin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-fuzzynestedjoin.html">Table.FuzzyNestedJoin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-group.html">Table.Group</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-hascolumns.html">Table.HasColumns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-insertrows.html">Table.InsertRows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-isdistinct.html">Table.IsDistinct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-isempty.html">Table.IsEmpty</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-join.html">Table.Join</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-keys.html">Table.Keys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-last.html">Table.Last</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-lastn.html">Table.LastN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-matchesallrows.html">Table.MatchesAllRows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-matchesanyrows.html">Table.MatchesAnyRows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-max.html">Table.Max</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-maxn.html">Table.MaxN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-min.html">Table.Min</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-minn.html">Table.MinN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-nestedjoin.html">Table.NestedJoin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-partition.html">Table.Partition</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-partitionvalues.html">Table.PartitionValues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-pivot.html">Table.Pivot</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-positionof.html">Table.PositionOf</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-positionofany.html">Table.PositionOfAny</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-prefixcolumns.html">Table.PrefixColumns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-profile.html">Table.Profile</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-promoteheaders.html">Table.PromoteHeaders</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-range.html">Table.Range</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-removecolumns.html">Table.RemoveColumns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-removefirstn.html">Table.RemoveFirstN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-removelastn.html">Table.RemoveLastN</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-removematchingrows.html">Table.RemoveMatchingRows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-removerows.html">Table.RemoveRows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-removerowswitherrors.html">Table.RemoveRowsWithErrors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-renamecolumns.html">Table.RenameColumns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-reordercolumns.html">Table.ReorderColumns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-repeat.html">Table.Repeat</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-replaceerrorvalues.html">Table.ReplaceErrorValues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-replacekeys.html">Table.ReplaceKeys</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-replacematchingrows.html">Table.ReplaceMatchingRows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-replacerelationshipidentity.html">Table.ReplaceRelationshipIdentity</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-replacerows.html">Table.ReplaceRows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-replacevalue.html">Table.ReplaceValue</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-reverserows.html">Table.ReverseRows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-rowcount.html">Table.RowCount</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-schema.html">Table.Schema</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-selectcolumns.html">Table.SelectColumns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-selectrows.html">Table.SelectRows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-selectrowswitherrors.html">Table.SelectRowsWithErrors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-singlerow.html">Table.SingleRow</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-skip.html">Table.Skip</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-sort.html">Table.Sort</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-split.html">Table.Split</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-splitat.html">Table.SplitAt</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-splitcolumn.html">Table.SplitColumn</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-tocolumns.html">Table.ToColumns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-tolist.html">Table.ToList</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-torecords.html">Table.ToRecords</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-torows.html">Table.ToRows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-transformcolumnnames.html">Table.TransformColumnNames</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-transformcolumns.html">Table.TransformColumns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-transformcolumntypes.html">Table.TransformColumnTypes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-transformrows.html">Table.TransformRows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-transpose.html">Table.Transpose</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-unpivot.html">Table.Unpivot</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-unpivotothercolumns.html">Table.UnpivotOtherColumns</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-view.html">Table.View</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/table-viewfunction.html">Table.ViewFunction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="table-functions/tables-getrelationships.html">Tables.GetRelationships</a></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="splitter-functions/splitter-splittextbywhitespace.html" class="btn btn-neutral float-left" title="Splitter.SplitTextByWhitespace" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="table-functions/extravalues-error.html" class="btn btn-neutral float-right" title="ExtraValues.Error" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Jay Bulsara.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

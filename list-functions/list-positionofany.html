@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>List.PositionOfAny &mdash; PowerQuery M Reference Guide  documentation</title><link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="List.Positions" href="list-positions.html" />
+    <link rel="prev" title="List.PositionOf" href="list-positionof.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> PowerQuery M Reference Guide
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../accessing-data-functions.html">Accessing data functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../binary-functions.html">Binary functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../combiner-functions.html">Combiner functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../comparer-functions.html">Comparer functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../date-functions.html">Date functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../datetime-functions.html">DateTime functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../datetimezone-functions.html">DateTimeZone functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../duration-functions.html">Duration functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../error-handling.html">Error handling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../expression-functions.html">Expression functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../function-values.html">Function values</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lines-functions.html">Lines functions</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../list-functions.html">List functions</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="list-accumulate.html">List.Accumulate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-alltrue.html">List.AllTrue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-alternate.html">List.Alternate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-anytrue.html">List.AnyTrue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-average.html">List.Average</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-buffer.html">List.Buffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-combine.html">List.Combine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-conformtopagereader.html">List.ConformToPageReader</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-contains.html">List.Contains</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-containsall.html">List.ContainsAll</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-containsany.html">List.ContainsAny</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-count.html">List.Count</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-covariance.html">List.Covariance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-dates.html">List.Dates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-datetimes.html">List.DateTimes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-datetimezones.html">List.DateTimeZones</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-difference.html">List.Difference</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-distinct.html">List.Distinct</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-durations.html">List.Durations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-findtext.html">List.FindText</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-first.html">List.First</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-firstn.html">List.FirstN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-generate.html">List.Generate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-insertrange.html">List.InsertRange</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-intersect.html">List.Intersect</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-isdistinct.html">List.IsDistinct</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-isempty.html">List.IsEmpty</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-last.html">List.Last</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-lastn.html">List.LastN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-matchesall.html">List.MatchesAll</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-matchesany.html">List.MatchesAny</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-max.html">List.Max</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-maxn.html">List.MaxN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-median.html">List.Median</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-min.html">List.Min</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-minn.html">List.MinN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-mode.html">List.Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-modes.html">List.Modes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-nonnullcount.html">List.NonNullCount</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-numbers.html">List.Numbers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-percentile.html">List.Percentile</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-positionof.html">List.PositionOf</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">List.PositionOfAny</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#syntax">Syntax</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#about">About</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="list-positions.html">List.Positions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-product.html">List.Product</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-random.html">List.Random</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-range.html">List.Range</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-removefirstn.html">List.RemoveFirstN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-removeitems.html">List.RemoveItems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-removelastn.html">List.RemoveLastN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-removematchingitems.html">List.RemoveMatchingItems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-removenulls.html">List.RemoveNulls</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-removerange.html">List.RemoveRange</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-repeat.html">List.Repeat</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-replacematchingitems.html">List.ReplaceMatchingItems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-replacerange.html">List.ReplaceRange</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-replacevalue.html">List.ReplaceValue</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-reverse.html">List.Reverse</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-select.html">List.Select</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-single.html">List.Single</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-singleordefault.html">List.SingleOrDefault</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-skip.html">List.Skip</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-sort.html">List.Sort</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-split.html">List.Split</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-standarddeviation.html">List.StandardDeviation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-sum.html">List.Sum</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-times.html">List.Times</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-transform.html">List.Transform</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-transformmany.html">List.TransformMany</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-union.html">List.Union</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list-zip.html">List.Zip</a></li>
+<li class="toctree-l2"><a class="reference internal" href="percentilemode-excelexc.html">PercentileMode.ExcelExc</a></li>
+<li class="toctree-l2"><a class="reference internal" href="percentilemode-excelinc.html">PercentileMode.ExcelInc</a></li>
+<li class="toctree-l2"><a class="reference internal" href="percentilemode-sqlcont.html">PercentileMode.SqlCont</a></li>
+<li class="toctree-l2"><a class="reference internal" href="percentilemode-sqldisc.html">PercentileMode.SqlDisc</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../logical-functions.html">Logical functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../number-functions.html">Number functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../record-functions.html">Record functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../replacer-functions.html">Replacer functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../splitter-functions.html">Splitter functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../table-functions.html">Table functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../text-functions.html">Text functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../time-functions.html">Time functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../type-functions.html">Type functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uri-functions.html">Uri functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../value-functions.html">Value functions</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PowerQuery M Reference Guide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../list-functions.html">List functions</a> &raquo;</li>
+      <li>List.PositionOfAny</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/list-functions/list-positionofany.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="list-positionofany">
+<h1>List.PositionOfAny<a class="headerlink" href="#list-positionofany" title="Permalink to this headline"></a></h1>
+<p>Microsoft Docs: <a class="reference external" href="https://docs.microsoft.com/en-us/powerquery-m/list-positionofany">List.PositionOfAny</a></p>
+<div class="section" id="syntax">
+<h2>Syntax<a class="headerlink" href="#syntax" title="Permalink to this headline"></a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Syntax</span> <span class="k">for</span> <span class="n">this</span> <span class="n">function</span><span class="o">.</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="about">
+<h2>About<a class="headerlink" href="#about" title="Permalink to this headline"></a></h2>
+<p>About this function.</p>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="list-positionof.html" class="btn btn-neutral float-left" title="List.PositionOf" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="list-positions.html" class="btn btn-neutral float-right" title="List.Positions" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Jay Bulsara.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

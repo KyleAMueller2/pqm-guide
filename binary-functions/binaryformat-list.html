@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BinaryFormat.List &mdash; PowerQuery M Reference Guide  documentation</title><link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="BinaryFormat.Null" href="binaryformat-null.html" />
+    <link rel="prev" title="BinaryFormat.Length" href="binaryformat-length.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> PowerQuery M Reference Guide
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../accessing-data-functions.html">Accessing data functions</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../binary-functions.html">Binary functions</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="binary-buffer.html">Binary.Buffer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binary-combine.html">Binary.Combine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binary-compress.html">Binary.Compress</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binary-decompress.html">Binary.Decompress</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binary-from.html">Binary.From</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binary-fromlist.html">Binary.FromList</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binary-fromtext.html">Binary.FromText</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binary-infercontenttype.html">Binary.InferContentType</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binary-length.html">Binary.Length</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binary-range.html">Binary.Range</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binary-tolist.html">Binary.ToList</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binary-totext.html">Binary.ToText</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryencoding-base64.html">BinaryEncoding.Base64</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryencoding-hex.html">BinaryEncoding.Hex</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-7bitencodedsignedinteger.html">BinaryFormat.7BitEncodedSignedInteger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-7bitencodedunsignedinteger.html">BinaryFormat.7BitEncodedUnsignedInteger</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-binary.html">BinaryFormat.Binary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-byte.html">BinaryFormat.Byte</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-byteorder.html">BinaryFormat.ByteOrder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-choice.html">BinaryFormat.Choice</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-decimal.html">BinaryFormat.Decimal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-double.html">BinaryFormat.Double</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-group.html">BinaryFormat.Group</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-length.html">BinaryFormat.Length</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">BinaryFormat.List</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#syntax">Syntax</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#about">About</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-null.html">BinaryFormat.Null</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-record.html">BinaryFormat.Record</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-signedinteger16.html">BinaryFormat.SignedInteger16</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-signedinteger32.html">BinaryFormat.SignedInteger32</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-signedinteger64.html">BinaryFormat.SignedInteger64</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-single.html">BinaryFormat.Single</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-text.html">BinaryFormat.Text</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-transform.html">BinaryFormat.Transform</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-unsignedinteger16.html">BinaryFormat.UnsignedInteger16</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-unsignedinteger32.html">BinaryFormat.UnsignedInteger32</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryformat-unsignedinteger64.html">BinaryFormat.UnsignedInteger64</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryoccurrence-optional.html">BinaryOccurrence.Optional</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryoccurrence-repeating.html">BinaryOccurrence.Repeating</a></li>
+<li class="toctree-l2"><a class="reference internal" href="binaryoccurrence-required.html">BinaryOccurrence.Required</a></li>
+<li class="toctree-l2"><a class="reference internal" href="byteorder-bigendian.html">ByteOrder.BigEndian</a></li>
+<li class="toctree-l2"><a class="reference internal" href="byteorder-littleendian.html">ByteOrder.LittleEndian</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compression-brotli.html">Compression.Brotli</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compression-deflate.html">Compression.Deflate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compression-gzip.html">Compression.GZip</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compression-lz4.html">Compression.LZ4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compression-none.html">Compression.None</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compression-snappy.html">Compression.Snappy</a></li>
+<li class="toctree-l2"><a class="reference internal" href="compression-zstandard.html">Compression.Zstandard</a></li>
+<li class="toctree-l2"><a class="reference internal" href="occurrence-optional.html">Occurrence.Optional</a></li>
+<li class="toctree-l2"><a class="reference internal" href="occurrence-repeating.html">Occurrence.Repeating</a></li>
+<li class="toctree-l2"><a class="reference internal" href="occurrence-required.html">Occurrence.Required</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sharpbinary.html">#binary</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../combiner-functions.html">Combiner functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../comparer-functions.html">Comparer functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../date-functions.html">Date functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../datetime-functions.html">DateTime functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../datetimezone-functions.html">DateTimeZone functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../duration-functions.html">Duration functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../error-handling.html">Error handling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../expression-functions.html">Expression functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../function-values.html">Function values</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lines-functions.html">Lines functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../list-functions.html">List functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../logical-functions.html">Logical functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../number-functions.html">Number functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../record-functions.html">Record functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../replacer-functions.html">Replacer functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../splitter-functions.html">Splitter functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../table-functions.html">Table functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../text-functions.html">Text functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../time-functions.html">Time functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../type-functions.html">Type functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uri-functions.html">Uri functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../value-functions.html">Value functions</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PowerQuery M Reference Guide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../binary-functions.html">Binary functions</a> &raquo;</li>
+      <li>BinaryFormat.List</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/binary-functions/binaryformat-list.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="binaryformat-list">
+<h1>BinaryFormat.List<a class="headerlink" href="#binaryformat-list" title="Permalink to this headline"></a></h1>
+<p>Microsoft Docs: <a class="reference external" href="https://docs.microsoft.com/en-us/powerquery-m/binaryformat-list">BinaryFormat.List</a></p>
+<div class="section" id="syntax">
+<h2>Syntax<a class="headerlink" href="#syntax" title="Permalink to this headline"></a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Syntax</span> <span class="k">for</span> <span class="n">this</span> <span class="n">function</span><span class="o">.</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="about">
+<h2>About<a class="headerlink" href="#about" title="Permalink to this headline"></a></h2>
+<p>About this function.</p>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="binaryformat-length.html" class="btn btn-neutral float-left" title="BinaryFormat.Length" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="binaryformat-null.html" class="btn btn-neutral float-right" title="BinaryFormat.Null" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Jay Bulsara.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

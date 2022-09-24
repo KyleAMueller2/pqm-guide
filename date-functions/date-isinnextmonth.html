@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Date.IsInNextMonth &mdash; PowerQuery M Reference Guide  documentation</title><link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Date.IsInNextNDays" href="date-isinnextndays.html" />
+    <link rel="prev" title="Date.IsInNextDay" href="date-isinnextday.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> PowerQuery M Reference Guide
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../accessing-data-functions.html">Accessing data functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../binary-functions.html">Binary functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../combiner-functions.html">Combiner functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../comparer-functions.html">Comparer functions</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../date-functions.html">Date functions</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="date-adddays.html">Date.AddDays</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-addmonths.html">Date.AddMonths</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-addquarters.html">Date.AddQuarters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-addweeks.html">Date.AddWeeks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-addyears.html">Date.AddYears</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-day.html">Date.Day</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-dayofweek.html">Date.DayOfWeek</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-dayofweekname.html">Date.DayOfWeekName</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-dayofyear.html">Date.DayOfYear</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-daysinmonth.html">Date.DaysInMonth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-endofday.html">Date.EndOfDay</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-endofmonth.html">Date.EndOfMonth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-endofquarter.html">Date.EndOfQuarter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-endofweek.html">Date.EndOfWeek</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-endofyear.html">Date.EndOfYear</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-from.html">Date.From</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-fromtext.html">Date.FromText</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isincurrentday.html">Date.IsInCurrentDay</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isincurrentmonth.html">Date.IsInCurrentMonth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isincurrentquarter.html">Date.IsInCurrentQuarter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isincurrentweek.html">Date.IsInCurrentWeek</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isincurrentyear.html">Date.IsInCurrentYear</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinnextday.html">Date.IsInNextDay</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Date.IsInNextMonth</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#syntax">Syntax</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#about">About</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinnextndays.html">Date.IsInNextNDays</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinnextnmonths.html">Date.IsInNextNMonths</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinnextnquarters.html">Date.IsInNextNQuarters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinnextnweeks.html">Date.IsInNextNWeeks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinnextnyears.html">Date.IsInNextNYears</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinnextquarter.html">Date.IsInNextQuarter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinnextweek.html">Date.IsInNextWeek</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinnextyear.html">Date.IsInNextYear</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinpreviousday.html">Date.IsInPreviousDay</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinpreviousmonth.html">Date.IsInPreviousMonth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinpreviousndays.html">Date.IsInPreviousNDays</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinpreviousnmonths.html">Date.IsInPreviousNMonths</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinpreviousnquarters.html">Date.IsInPreviousNQuarters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinpreviousnweeks.html">Date.IsInPreviousNWeeks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinpreviousnyears.html">Date.IsInPreviousNYears</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinpreviousquarter.html">Date.IsInPreviousQuarter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinpreviousweek.html">Date.IsInPreviousWeek</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinpreviousyear.html">Date.IsInPreviousYear</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isinyeartodate.html">Date.IsInYearToDate</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-isleapyear.html">Date.IsLeapYear</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-month.html">Date.Month</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-monthname.html">Date.MonthName</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-quarterofyear.html">Date.QuarterOfYear</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-startofday.html">Date.StartOfDay</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-startofmonth.html">Date.StartOfMonth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-startofquarter.html">Date.StartOfQuarter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-startofweek.html">Date.StartOfWeek</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-startofyear.html">Date.StartOfYear</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-torecord.html">Date.ToRecord</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-totext.html">Date.ToText</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-weekofmonth.html">Date.WeekOfMonth</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-weekofyear.html">Date.WeekOfYear</a></li>
+<li class="toctree-l2"><a class="reference internal" href="date-year.html">Date.Year</a></li>
+<li class="toctree-l2"><a class="reference internal" href="day-friday.html">Day.Friday</a></li>
+<li class="toctree-l2"><a class="reference internal" href="day-monday.html">Day.Monday</a></li>
+<li class="toctree-l2"><a class="reference internal" href="day-saturday.html">Day.Saturday</a></li>
+<li class="toctree-l2"><a class="reference internal" href="day-sunday.html">Day.Sunday</a></li>
+<li class="toctree-l2"><a class="reference internal" href="day-thursday.html">Day.Thursday</a></li>
+<li class="toctree-l2"><a class="reference internal" href="day-tuesday.html">Day.Tuesday</a></li>
+<li class="toctree-l2"><a class="reference internal" href="day-wednesday.html">Day.Wednesday</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sharpdate.html">#date</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../datetime-functions.html">DateTime functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../datetimezone-functions.html">DateTimeZone functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../duration-functions.html">Duration functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../error-handling.html">Error handling</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../expression-functions.html">Expression functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../function-values.html">Function values</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lines-functions.html">Lines functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../list-functions.html">List functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../logical-functions.html">Logical functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../number-functions.html">Number functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../record-functions.html">Record functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../replacer-functions.html">Replacer functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../splitter-functions.html">Splitter functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../table-functions.html">Table functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../text-functions.html">Text functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../time-functions.html">Time functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../type-functions.html">Type functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../uri-functions.html">Uri functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../value-functions.html">Value functions</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">PowerQuery M Reference Guide</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../date-functions.html">Date functions</a> &raquo;</li>
+      <li>Date.IsInNextMonth</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/date-functions/date-isinnextmonth.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="date-isinnextmonth">
+<h1>Date.IsInNextMonth<a class="headerlink" href="#date-isinnextmonth" title="Permalink to this headline"></a></h1>
+<p>Microsoft Docs: <a class="reference external" href="https://docs.microsoft.com/en-us/powerquery-m/date-isinnextmonth">Date.IsInNextMonth</a></p>
+<div class="section" id="syntax">
+<h2>Syntax<a class="headerlink" href="#syntax" title="Permalink to this headline"></a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Syntax</span> <span class="k">for</span> <span class="n">this</span> <span class="n">function</span><span class="o">.</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="about">
+<h2>About<a class="headerlink" href="#about" title="Permalink to this headline"></a></h2>
+<p>About this function.</p>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="date-isinnextday.html" class="btn btn-neutral float-left" title="Date.IsInNextDay" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="date-isinnextndays.html" class="btn btn-neutral float-right" title="Date.IsInNextNDays" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2022, Jay Bulsara.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
