@@ -1,1 +1,4 @@
-docker run --rm -v `pwd`:/srv/jekyll/ jaxbulsara/pqm-guide-jekyll jekyll build
+#!/bin/bash
+
+cd docs
+pipenv run sphinx-build -b html . ../_build
